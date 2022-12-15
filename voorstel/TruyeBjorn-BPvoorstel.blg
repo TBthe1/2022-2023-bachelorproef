@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'TruyeBjorn-BPvoorstel.blg'
-[110] biber-MSWIN64:340> INFO - === 
-[139] Biber.pm:418> INFO - Reading 'TruyeBjorn-BPvoorstel.bcf'
-[240] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
-[253] Biber.pm:4383> INFO - Processing section 0
-[263] Biber.pm:4574> INFO - Looking for bibtex file 'voorstel.bib' for section 0
-[300] bibtex.pm:1713> INFO - LaTeX decoding ...
-[308] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
-[338] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[338] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[338] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[338] Biber.pm:4209> INFO - No sort tailoring available for locale 'nl-NL'
-[343] bbl.pm:654> INFO - Writing 'TruyeBjorn-BPvoorstel.bbl' with encoding 'UTF-8'
-[344] bbl.pm:757> INFO - Output to TruyeBjorn-BPvoorstel.bbl
+[93] biber-MSWIN64:340> INFO - === 
+[127] Biber.pm:418> INFO - Reading 'TruyeBjorn-BPvoorstel.bcf'
+[234] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[248] Biber.pm:4383> INFO - Processing section 0
+[259] Biber.pm:4574> INFO - Looking for bibtex file 'voorstel.bib' for section 0
+[298] bibtex.pm:1713> INFO - LaTeX decoding ...
+[309] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
+[376] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[376] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[376] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[376] Biber.pm:4209> INFO - No sort tailoring available for locale 'nl-NL'
+[390] bbl.pm:654> INFO - Writing 'TruyeBjorn-BPvoorstel.bbl' with encoding 'UTF-8'
+[394] bbl.pm:757> INFO - Output to TruyeBjorn-BPvoorstel.bbl

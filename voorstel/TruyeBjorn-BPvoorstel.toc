@@ -1,7 +1,16 @@
 \babel@toc {dutch}{}\relax 
 \contentsline {section}{\numberline {1}Introductie}{1}{section.1}%
-\contentsline {section}{\numberline {2}State-of-the-art}{2}{section.2}%
-\contentsline {section}{\numberline {3}Methodologie}{2}{section.3}%
-\contentsline {section}{\numberline {4}Verwacht resultaat, conclusie}{2}{section.4}%
-\contentsline {section}{Referenties}{2}{section.4}%
+\contentsline {section}{\numberline {2}Overzicht literatuur}{2}{section.2}%
+\contentsline {section}{\numberline {3}Methodologie}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Eerste fase - ophalen van informatie}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tweede fase - filteren en afbakenen}{3}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Must haves}{3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Should haves}{3}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Could haves}{4}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Won't haves}{4}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Derde fase - gedetailleerd opzoeken}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Vierde fase - feedback verzamelen (optioneel)}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Vijfde fase - conclusies trekken}{4}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Verwacht resultaat, conclusie}{4}{section.4}%
+\contentsline {section}{Referenties}{5}{section.4}%
 \contentsfinish 

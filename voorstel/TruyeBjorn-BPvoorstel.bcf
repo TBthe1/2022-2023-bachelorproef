@@ -2791,8 +2791,27 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Hykes2013</bcf:citekey>
-    <bcf:citekey order="2">Hykes2013</bcf:citekey>
+    <bcf:citekey order="1">Meiresonne2008</bcf:citekey>
+    <bcf:citekey order="2">Meshen2021</bcf:citekey>
+    <bcf:citekey order="3">DriesBlanchaert2022</bcf:citekey>
+    <bcf:citekey order="4">LatumenRonaldDekker2004</bcf:citekey>
+    <bcf:citekey order="5">Tahir2011</bcf:citekey>
+    <bcf:citekey order="6">DeBruijn2013</bcf:citekey>
+    <bcf:citekey order="7">Bottelbergs2013</bcf:citekey>
+    <bcf:citekey order="8">DeMits2009</bcf:citekey>
+    <bcf:citekey order="9">Meijer2012</bcf:citekey>
+    <bcf:citekey order="10">Behiels2021</bcf:citekey>
+    <bcf:citekey order="11">DeBruijn2013</bcf:citekey>
+    <bcf:citekey order="12">Meiresonne2008</bcf:citekey>
+    <bcf:citekey order="13">Meshen2021</bcf:citekey>
+    <bcf:citekey order="14">DriesBlanchaert2022</bcf:citekey>
+    <bcf:citekey order="15">LatumenRonaldDekker2004</bcf:citekey>
+    <bcf:citekey order="16">Tahir2011</bcf:citekey>
+    <bcf:citekey order="17">DeBruijn2013</bcf:citekey>
+    <bcf:citekey order="18">Bottelbergs2013</bcf:citekey>
+    <bcf:citekey order="19">DeMits2009</bcf:citekey>
+    <bcf:citekey order="20">Meijer2012</bcf:citekey>
+    <bcf:citekey order="21">Behiels2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -3,70 +3,117 @@
 \section{Introductie}%
 \label{sec:introductie}
 
-Waarover zal je bachelorproef gaan? Introduceer het thema en zorg dat volgende zaken zeker duidelijk aanwezig zijn:
-
-\begin{itemize}
-  \item kaderen thema
-  \item de doelgroep
-  \item de probleemstelling en (centrale) onderzoeksvraag
-  \item de onderzoeksdoelstelling
-\end{itemize}
-
-Denk er aan: een typische bachelorproef is \textit{toegepast onderzoek}, wat betekent dat je start vanuit een concrete probleemsituatie in bedrijfscontext, een \textbf{casus}. Het is belangrijk om je onderwerp goed af te bakenen: je gaat voor die \textit{ene specifieke probleemsituatie} op zoek naar een goede oplossing, op basis van de huidige kennis in het vakgebied.
-
-De doelgroep moet ook concreet en duidelijk zijn, dus geen algemene of vaag gedefinieerde groepen zoals \emph{bedrijven}, \emph{developers}, \emph{Vlamingen}, enz. Je richt je in elk geval op it-professionals, een bachelorproef is geen populariserende tekst. Eén specifiek bedrijf (die te maken hebben met een concrete probleemsituatie) is dus beter dan \emph{bedrijven} in het algemeen.
-
-Formuleer duidelijk de onderzoeksvraag! De begeleiders lezen nog steeds te veel voorstellen waarin we geen onderzoeksvraag terugvinden.
-
-Schrijf ook iets over de doelstelling. Wat zie je als het concrete eindresultaat van je onderzoek, naast de uitgeschreven scriptie? Is het een proof-of-concept, een rapport met aanbevelingen, \ldots Met welk eindresultaat kan je je bachelorproef als een succes beschouwen?
+Om mensen zonder enige programmeerkennis toch de mogelijkheid te geven om zelf een webshop te beheren, is een contentmanagementsysteem (CMS) een goede oplossing. Hierbij bepaalt de developer in welke mate er wijzigingen kunnen plaatsvinden aan de webshop, zonder dat de klant daarvoor zelf naar de code hoeft te kijken. Via een login systeem kan de klant zelf teksten en afbeeldingen wijzigen, zonder de hulp van de webdeveloper. Dit kan een interessante optie zijn voor de klant, wanneer de inhoud van de webshop regelmatig verandert (bv. wanneer er nieuwe producten in het assortiment verschijnen). In plaats van de developer extra te laten betalen voor elke wijziging, kan de klant dit op eigen initiatief aanpassen.
+\\\\
+Zoals in de onderzoeksvraag staat beschreven, bekijken we dit scenario vanuit het standpunt van de webdeveloper, en niet vanuit de klant. Het is en blijft wel belangrijk dat we rekening houden met o.a. de gebruiksvriendelijkheid van een gekozen contentmanagementsysteem. De eindgebruiker, de klant in dit geval, zal hier ten slotte op zelfstandige basis verder mee aan de slag moeten gaan. Het is niet evident op voorhand in te schatten en kan afhankelijk zijn van verschillende factoren zoals eerdere ervaring met een bepaald contentmanagementsysteem, de technische ervaringen van de klant etc. 
+\\\\
+De auteur heeft tijdens één van zijn jobs, als front-end developer in het werkveld, persoonlijk ondervonden hoe bedrijven zich soms vasthouden aan één bepaald contentmanagementsysteem. Wanneer een potentiële klant bij een bedrijf zou langskomen voor een overname van een bestaande webshop, dan krijgt die potentiële klant soms te horen dat de overname niet mogelijk is zonder enige aanpassingen (en bijgevolg extra bijkomende kosten). De reden hiervoor is meestal omdat de interne programmeurs van het bedrijf enkel opgeleid zijn voor één bepaald contentmanagementsysteem. Het overnemen van een website of webshop met daarop een andere contentmanagementsysteem kan veel extra tijd en resources vragen. Zo heeft een potentiële klant die ooit een webshop op bv. Drupal heeft laten maken bijgevolg extra kosten voor een overname bij een bedrijf dat enkel met bv. WordPress werkt. 
+\\\\
+Stel dat we een freelance webdeveloper hebben, die niet gebonden is aan de restricties van een bepaald bedrijf, en verschillende potentiële klanten zou ontvangen. Wat als die webdeveloper niet verplicht is om een contentmanagementsysteem van een bedrijf te gebruiken, zoals 3SIGN hun eigen contentmanagementsysteem heeft \autocite{Meiresonne2008}. Gaat de webdeveloper zich voor elk van deze klanten focussen op een specifieke contentmanagementsysteem, of kan de webdeveloper zich beter focussen op eenzelfde contentmanagementsysteem voor elke klant? 
+\\\\
+Om daar een concreet antwoord op te kunnen bieden komen er andere vragen bij kijken zoals:\\
+- Is het realistisch om met verschillende contentmanagementsystemen te werken?\\
+- Is het noodzakelijk om verschillende contentmanagementsystemen te hebben?\\
+- Bestaat er niet één contentmanagementsysteem die mogelijks alle behoeftes van een klant kan vervullen?\\ 
+- Kan de klant wel met een ander contentmanagementsysteem werken als die reeds een ander gewoon is enzovoort.\\
+- ... 
+\\\\
+Afhankelijk van het scenario kan het antwoord op deze vragen enorm variëren. 
+\\\\
+Als een potentiële klant bij een developer komt met de vraag een webshop in een specifieke contentmanagementsysteem te maken, is het voor de developer realistisch om deze opdracht te aanvaarden of niet? Uiteraard zullen er veel externe factoren invloed hebben op de uiteindelijke beslissing van de webdeveloper (bv. voorkennis in een bepaald contentmanagementsysteem, een specifieke wens van een klant ...). 
+\\\\
+Het doel van deze paper is om zo objectief mogelijk alle contentmanagementsystemen te overlopen, die niet bedrijfsgebonden zijn, hun sterktes en zwaktes te analyseren en vervolgens met elkaar te vergelijken. Uiteindelijk kan deze paper als richtlijn dienen voor de developer zodat hij of zij een betere inschatting kan maken of een bepaald contentmanagementsysteem al dan niet hanteerbaar is voor een bepaalde opdracht. We willen de lezers van de richtlijn, de webdevelopers, zelf een conclusie laten nemen o.b.v. hun eigen ervaring en kennis. Aangezien deze paper in het Nederlands geschreven is zal de doelgroep hoofdzakelijk de Nederlandstalige webdevelopers zijn.
+\\\\
 
 %---------- Stand van zaken ---------------------------------------------------
 
-\section{State-of-the-art}%
-\label{sec:state-of-the-art}
+\section{Overzicht literatuur}%
+\label{sec:overzicht-literatuur}
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein, d.w.z.\ een inleidende, doorlopende tekst over het onderzoeksdomein van je bachelorproef. Je steunt daarbij heel sterk op de professionele \emph{vakliteratuur}, en niet zozeer op populariserende teksten voor een breed publiek. Wat is de huidige stand van zaken in dit domein, en wat zijn nog eventuele open vragen (die misschien de aanleiding waren tot je onderzoeksvraag!)?
-
-Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek?
-
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Hykes2013}! Denk zeker goed na welke werken je refereert en waarom.
-
-Draag zorg voor correcte literatuurverwijzingen! Een bronvermelding hoort thuis \emph{binnen} de zin waar je je op die bron baseert, dus niet er buiten! Maak meteen een verwijzing als je gebruik maakt van een bron. Doe dit dus \emph{niet} aan het einde van een lange paragraaf. Baseer nooit teveel aansluitende tekst op eenzelfde bron.
-
-Als je informatie over bronnen verzamelt in JabRef, zorg er dan voor dat alle nodige info aanwezig is om de bron terug te vinden (zoals uitvoerig besproken in de lessen Research Methods).
-
-% Voor literatuurverwijzingen zijn er twee belangrijke commando's:
-% \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
-%   geen onderdeel is van de zin.
-% \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
-%   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
-%   ...'')
-
-Je mag deze sectie nog verder onderverdelen in subsecties als dit de structuur van de tekst kan verduidelijken.
+De richtlijn zal zich focussen op de Web Contentmanagementsystemen met een traditionele architectuur. Er zijn drie verschillende architecturen: \autocite{Meshen2021}\\
+- Een coupled of traditionele waarbij een front- en backend aanwezig zijn en met elkaar in interactie zijn: de backend stuurt de informatie door naar de front-end.\\
+- Een headless waarbij er geen front-end gedeelte of presentatielaag aanwezig is.\\  
+- En een decoupled waarbij de front- en backend van elkaar afgezonderd zijn.
+\\\\
+De webdevelopers zullen rekening moeten houden met het feit dat er altijd een kennismakingsfase nodig is bij het werken met een nieuw contentmanagementsysteem. Er zijn verschillende manieren om door die fase heen te geraken zoals het lezen van de documentatie of het effectief beginnen werken met zo'n contentmanagementsysteem. Het hangt zowel van de leercurve van de webdeveloper zelf als de complexiteit van een contentmanagementsysteem af hoelang het duurt eer de webdeveloper deze contentmanagementsysteem onder de knie heeft. \autocite{DriesBlanchaert2022}    
+\\\\
+Een contentmanagementsysteem laat de klanten toe hun teksten en afbeeldingen zelf aan te passen. Afhankelijk van de noden en wensen van de klant, het type webshop, het assortiment aan producten... kan het gebruik van professionele afbeeldingen voor een webshop belangrijk zijn. Deze hebben een groter formaat en bijgevolg ook meer opslagruimte nodig. Het is aan de webdeveloper om dit in het achterhoofd te houden bij het kiezen van een contentmanagementsysteem door bv. extra opslagruimte op de server te voorzien.  \autocite{LatumenRonaldDekker2004} 
+\\\\
+Als de klant op voorhand laat weten dat zijn doelpubliek bv. de jongere generaties zijn, dan kan het bv. interessant zijn om te kijken naar een contentmanagementsysteem dat zich meer focust op mobiele toestellen. Het is belangrijk dat de doelgroep van de webshop zo eenvoudig mogelijk transacties kan uitvoeren. \autocite{Tahir2011}
+\\\\
+Niet elk contentmanagementsysteem is standaard voorzien van trackingtools om het gedrag van de gebruikers te analyseren. Afhankelijk van de opdracht van de klant kan dit wel een noodzakelijke behoefte zijn. \autocite{DeBruijn2013}
+\\\\
+Een andere belangrijke factor is de beveiliging. Aangezien dit afhankelijk is van diverse factoren lijkt het ons niet aangewezen om in de richtlijn te vermelden welke contentmanagementsystemen meer of minder veilig zijn. Het is aan de webdeveloper zelf om hier alert in te zijn door bv. enkel betrouwbare plugins te installeren die goed onderhouden zijn. \autocite{Bottelbergs2013}
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}%
 \label{sec:methodologie}
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor literatuurstudie, interviews met belanghebbenden (bv.~voor requirements-analyse), experimenten, simulaties, vergelijkende studie, risico-analyse, PoC, \ldots?
+\subsection{Eerste fase - ophalen van informatie}
 
-Valt je onderwerp onder één van de typische soorten bachelorproeven die besproken zijn in de lessen Research Methods (bv.\ vergelijkende studie of risico-analyse)? Zorg er dan ook voor dat we duidelijk de verschillende stappen terug vinden die we verwachten in dit soort onderzoek!
+Om te achterhalen welke contentmanagementsystemen gebruikt worden bij de Nederlandstalige webdevelopers kan een enquête opgesteld worden. Aan de klanten zelf vragen op welk contentmanagementsysteem hun webshop gebouwd is, zal naar verwachting weinig resultaat opleveren omdat deze groep daar niet altijd zelf van op de hoogte is. Dit voornamelijk wegens gebrek aan technische kennis in de eerste plaats.
+\\\\
+Het grote voordeel aan deze werkwijze is dat we gedetailleerdere vragen kunnen stellen aan de webdevelopers zelf zoals wat hun specifieke voorkeur is van contentmanagementsysteem, welke ze liever vermijden en waarom, hoe ze met potentiële klanten omgaan die hun contentmanagementsysteem niet wensen te gebruiken enzovoort.
+\\\\
+De grote nadelen aan deze methode zijn dat de vragen vast staan en bijgevolg er niet op doorgevraagd kan worden. Bovendien kunnen deze vragen mogelijks verkeerd interpreteerbaar zijn. Afhankelijk van de reactiesnelheden en interesses van de webdevelopers kan je heel erg lang wachten op een resultaat.
+\\\\
+Een tweede en wellicht snellere mogelijkheid om informatie te verzamelen is om zelf op zoek te gaan naar welke contentmanagementsystemen in gebruik zijn. Een logische manier om dit te achterhalen is door bedrijven op te zoeken die webshops bouwen, om vervolgens naar deze webshops te surfen en zelf te achterhalen op welke contentmanagementsystemen deze gebouwd zijn. Mocht de developer niet in staat zijn om dit zelf te achterhalen op bv. de filestructuur, gebruik van classes, gebruik van url's... dan bestaan er gelukkig nog heel wat gratis tools om dit automatisch te achterhalen zoals \textbf{\href{https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg}{Wappalyzer}}.
+\\\\
+Op het einde van deze fase hebben we als resultaat een concrete lijst van verschillende contentmanagementsystemen, en eventueel extra feedback van de developers. Hiermee kunnen we naar de volgende fase stappen.
 
-Vermijd onderzoekstechnieken die geen objectieve, meetbare resultaten kunnen opleveren. Enquêtes, bijvoorbeeld, zijn voor een bachelorproef informatica meestal \textbf{niet geschikt}. De antwoorden zijn eerder meningen dan feiten en in de praktijk blijkt het ook bijzonder moeilijk om voldoende respondenten te vinden. Studenten die een enquête willen voeren, hebben meestal ook geen goede definitie van de populatie, waardoor ook niet kan aangetoond worden dat eventuele resultaten representatief zijn.
+\subsection{Tweede fase - filteren en afbakenen}
 
-Uit dit onderdeel moet duidelijk naar voor komen dat je bachelorproef ook technisch voldoen\-de diepgang zal bevatten. Het zou niet kloppen als een bachelorproef informatica ook door bv.\ een student marketing zou kunnen uitgevoerd worden.
+Het is tijd om de lijst te filteren op de belangrijkste contentmanagementsystemen. Dit kan eenvoudig gebeuren met behulp van de \textbf{MoSCoW-methode}. We zoeken (online) heel oppervlakkig op of bepaalde zaken in een contentmanagementsysteem aanwezig zijn of niet. We bekijken nog niet in detail hoe elk punt precies in elkaar zit, alleen maar of het aanwezig (kan) zijn of niet. Zo schakelen we alle contentmanagementsystemen uit die niet aan alle 'must haves' voldoen.\\
 
-Je beschrijft ook al welke tools (hardware, software, diensten, \ldots) je denkt hiervoor te gebruiken of te ontwikkelen.
+\subsubsection{Must haves}
+- Het contentmanagementsysteem moet in staat zijn om een \textbf{webshop} te runnen. Het is perfect mogelijk dat een contentmanagementsysteem enkel voor een website kan gebruikt worden en niet voorzien is voor een webshop op te bouwen. \\
+- De mogelijkheid tot \textbf{uitbreiding} (bv. door het gebruik van modules of door toevoeging van zelfgeschreven code). Belangrijk hierbij is dat bepaalde modules soms noodzakelijk zijn voor andere te installeren. \autocite{DeMits2009} \\
+- Een online (officiële) \textbf{documentatie}. Zonder een documentatie is het onbegonnen werk om op een efficiënte wijze problemen op te lossen, of te achterhalen waar het probleem juist zit tijdens het debuggen.\\
+- Een officiële \textbf{support} om te contacteren. De kans dat iets misloopt waar je zelf als developer niets aan kan doen is zeer realistisch. Het is daarom heel erg belangrijk om contact te kunnen opnemen met support om een probleem zo snel mogelijk op te lossen.\\
+- Ondersteuning voor een \textbf{responsive webdesign}. Steeds meer mensen surfen online via een mobiel toestel, en niet meer met een vaste computer. Het is daarom belangrijk dat op elk schermformaat de webshop mooi tot zijn recht komt, en functioneel blijft. \autocite{Meijer2012}\\
+\subsubsection{Should haves}
+- Een online (officiële) \textbf{forum} om over het contentmanagementsysteem te discussiëren. Dit kan zeer praktisch zijn voor als de (officiële) documentatie niet uitgebreid genoeg is.\\
+- Een (ingebouwde) mogelijkheid tot \textbf{SEO} (Search Engine Optimization) en / of \textbf{SEA} (Search Engine Advertising).\\ 
+\subsubsection{Could haves}
+- \textbf{Extra tools} die het leven van zowel de developer als klant makkelijker maken zoals een image compressor als \textbf{\href{https://wordpress.org/plugins/tiny-compress-images/}{TinyPNG}}.\\
+- Koppelingen met externe services voor het maken van een \textbf{webanalyse} zoals \textbf{\href{https://marketingplatform.google.com/intl/nl/about/analytics/}{Google Analytics}}.\\
+- Een aanwezige \textbf{WYSIWYG} (What You See Is What You Get) editor. Dit is zeker belangrijk voor klanten die direct visueel een resultaat willen zien. \autocite{Behiels2021}\\
+- \textbf{Interne trackingtools} voor het opvolgen van een gebruiker zijn gedrag. \autocite{DeBruijn2013} 
+\subsubsection{Won't haves}
+- De (ingebouwde) mogelijkheid tot het maken van \textbf{deelbare sociale media links} (social share links).
+\\\\
+Afhankelijk van het aantal contentmanagementsystemen op de lijst kan deze fase weinig (een paar uur) tot heel erg veel (een paar dagen of weken) tijd in beslag nemen. Alle contentmanagementsystemen die niet voldoen aan elke Must Have van de MoSCoW-methode mogen uit de lijst gefilterd worden. 
+\\\\
+Op het einde van deze fase zal de lijst met het aantal contentmanagementsystemen vast staan, maar zullen deze nog niet in detail bekeken zijn. Dit zal in de volgende fase plaats vinden.
 
-Probeer ook een tijdschatting te maken. Hoe lang zal je met elke fase van je onderzoek bezig zijn en wat zijn de concrete \emph{deliverables} in elke fase?
+\subsection{Derde fase - gedetailleerd opzoeken}
+Vervolgens worden de overgebleven contentmanagementsystemen meer in detail bekeken en aangevuld met extra technische punten zoals:\\
+- De \textbf{prijs}: is het free open source of met een maandelijks / jaarlijks abonnee? Welke opties zijn er aanwezig?\\
+- De \textbf{programmeertaal} waarin het geschreven is (bv. PHP).\\
+- De \textbf{serververeisten}: hoeveel schijfruimte er minimum nodig is (disk space), welke databases er mogelijk zijn en hun minimum versies (bv. vanaf MySql versie 5.015, MariaDB versie 10.1 ...), hoeveel CPU en RAM er minstens nodig is ...\\ 
+- ... \\
+Punten als `leercurve' of 'moeilijkheidsgraad' komen niet aan bod aangezien deze zeer subjectief zijn. Wat voor de ene persoon gemakkelijk is kan voor een ander heel erg moeilijk zijn.
+\\\\
+De tijd dat deze fase in beslag zal nemen is opnieuw afhankelijk van het aantal overgebleven contentmanagementsystemen in de lijst. Hou er rekening mee dat het overlopen van een contentmanagementsysteem veel meer tijd in beslag zal nemen dan de vorige fase, aangezien elk punt opnieuw overlopen wordt en er extra punten bij komen. Van zodra elk contentmanagementsysteem overlopen is, zal de eerste finale versie van de richtlijn versie klaar zijn.
+
+\subsection{Vierde fase - feedback verzamelen (optioneel)}
+De eerste finale versie van de richtlijn kan het best feedback krijgen door de doelgroep ervan, de webdevelopers. Dit kan zoals in de eerste fase gebeuren a.d.h.v. een opgestelde enquête. Deze feedback kan een cruciale rol spelen in de richtlijn. Zo kunnen bepaalde contentmanagementsystemen bv. bewust vermeden worden voor een specifieke reden die online niet terug te vinden is, kunnen bepaalde functionaliteiten cruciale gebrekken hebben enzovoort.  
+\\\\
+De tijd dat het in beslag zal nemen om alle antwoorden te verzamelen van de enquêtes is opnieuw afhankelijk van de reactiesnelheden en interesses van de webdevelopers.   
+
+\subsection{Vijfde fase - conclusies trekken}
+Nadien worden de verkregen antwoorden, eventueel met extra feedback uit voorgaande fase, verwerkt in de richtlijn.
+Zoals in de IT-sector is het belangrijk om in het achterhoofd te houden dat op elk moment een bepaald gegeven in de richtlijn verouderd kan worden. Het is daarom dat deze richtlijn goed onderhoud nodig heeft.
+\\\\
+Tenslotte is het aan de webdeveloper zelf om een inschatting te maken of een contentmanagementsysteem al dan niet past bij zijn klant of niet. De ene klant heeft graag een simpel design en weinig informatie om aan te passen, terwijl een andere klant juist meer vrijheid wilt en met meer complexere contentmanagementsystemen kan werken. Dit zal een combinatie van verschillende factoren worden zoals het gekozen contentmanagementsysteem, wat de webdeveloper van de klant zal afschermen, wat de technische ervaringen van de klant zijn enzovoort. 
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwacht resultaat, conclusie}%
 \label{sec:verwachte_resultaten}
 
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de onderdelen van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet welk soort data je moet verzamelen en hoe je die moet meten.
-
-Wat heeft de doelgroep van je onderzoek aan het resultaat? Op welke manier zorgt jouw bachelorproef voor een meerwaarde?
-
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+Van dit onderzoek verwachten we in de eerste plaats dat er geen 'ultieme' contentmanagementsysteem is die aan alle vereisten kan voldoen op elk vlak. Er zal een reden zijn waarom er zoveel verschillende systemen vandaag de dag op de markt worden aangeboden; niet alleen omdat ze van programmeertaal verschillen maar ook van functionaliteiten. Afhankelijk van de situatie zal een bepaald contentmanagementsysteem juist meer of minder uitspringen. En dat zal het net zo interessant maken om een richtlijn te hebben. Er zullen waarschijnlijk een vijftal, hooguit een tiental, verschillende contentmanagementsystemen op de hele richtlijn staan.
+\\\\
+Daarnaast verwachten we dat veel contentmanagementsystemen op vlak van technische vereisten veel zullen verschillen van elkaar. Dit geeft de webdevelopers een duidelijker overzicht van welke contentmanagementsystemen direct uitgesloten kunnen worden voor een bepaalde opdracht.
+\\\\
+Als laatste verwachten we dat op vlak van minimumvereisten er veel verschillende keuzes zullen zijn voor éénzelfde opdracht. Dit kan in de webdevelopers hun voordeel spelen. Zo kan men bv. tussen gelijkaardige contentmanagementsystemen één nemen waarbij hun voorkeur van programmeertaal aan bod komt.  
 
