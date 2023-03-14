@@ -1,0 +1,349 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Bottelbergs2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7bfc5b67039d1c4e2503e25e936a750}{%
+           family={Bottelbergs},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{fullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{bibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorbibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authornamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorfullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparative study on the security of open source web content management systems}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptieprijs.be/sites/default/files/A Comparative Study On The Security Of Open Source Web Content Management Systems.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptieprijs.be/sites/default/files/A%20Comparative%20Study%20On%20The%20Security%20Of%20Open%20Source%20Web%20Content%20Management%20Systems.pdf
+      \endverb
+    \endentry
+    \entry{DeBruijn2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ec15517384f7b0de53943892a5e4fdc}{%
+           family={De\bibnamedelima Bruijn},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           suffix={A.\bibnamedelimi ;\bibnamedelimb Van\bibnamedelima Dorth},
+           suffixi={A\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{2}{%
+        {Electrical Engineering, Mathematics}%
+        {Computer Science}%
+      }
+      \strng{namehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{fullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{bibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorbibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authornamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorfullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{2}
+      \field{title}{BSc-project: Geautomatiseerde webstatistiekanalyse en website-prestatie-indicatie}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+      \verb{url}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+    \endentry
+    \entry{DriesBlanchaert2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9abb2f27241b5ef79b22718242b48a}{%
+           family={Dries\bibnamedelima Blanchaert},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Veerle\bibnamedelimb Van\bibnamedelima Hauwenhuyse},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Master in de toegepaste informatica}%
+      }
+      \strng{namehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{fullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{bibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorbibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authornamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorfullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{8}
+      \field{title}{Migratie van een website naar een nieuw contentmanagementsysteem}
+      \field{type}{mathesis}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+      \verb{url}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+    \endentry
+    \entry{LatumenRonaldDekker2004}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51432f39a29d0098e8e34eaa93d3baf8}{%
+           family={Latum\bibnamedelimb en\bibnamedelimb Ronald\bibnamedelima Dekker},
+           familyi={L\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Frits},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{fullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{bibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorbibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authornamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorfullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content management: sleutelrol in digitale bibliotheek}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+      \verb{url}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Bottelbergs2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7bfc5b67039d1c4e2503e25e936a750}{%
+           family={Bottelbergs},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{fullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{bibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorbibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authornamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorfullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparative study on the security of open source web content management systems}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptieprijs.be/sites/default/files/A Comparative Study On The Security Of Open Source Web Content Management Systems.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptieprijs.be/sites/default/files/A%20Comparative%20Study%20On%20The%20Security%20Of%20Open%20Source%20Web%20Content%20Management%20Systems.pdf
+      \endverb
+    \endentry
+    \entry{DeBruijn2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ec15517384f7b0de53943892a5e4fdc}{%
+           family={De\bibnamedelima Bruijn},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           suffix={A.\bibnamedelimi ;\bibnamedelimb Van\bibnamedelima Dorth},
+           suffixi={A\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{2}{%
+        {Electrical Engineering, Mathematics}%
+        {Computer Science}%
+      }
+      \strng{namehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{fullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{bibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorbibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authornamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorfullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{2}
+      \field{title}{BSc-project: Geautomatiseerde webstatistiekanalyse en website-prestatie-indicatie}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+      \verb{url}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+    \endentry
+    \entry{DriesBlanchaert2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9abb2f27241b5ef79b22718242b48a}{%
+           family={Dries\bibnamedelima Blanchaert},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Veerle\bibnamedelimb Van\bibnamedelima Hauwenhuyse},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Master in de toegepaste informatica}%
+      }
+      \strng{namehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{fullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{bibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorbibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authornamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorfullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{8}
+      \field{title}{Migratie van een website naar een nieuw contentmanagementsysteem}
+      \field{type}{mathesis}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+      \verb{url}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+    \endentry
+    \entry{LatumenRonaldDekker2004}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51432f39a29d0098e8e34eaa93d3baf8}{%
+           family={Latum\bibnamedelimb en\bibnamedelimb Ronald\bibnamedelima Dekker},
+           familyi={L\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Frits},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{fullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{bibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorbibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authornamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorfullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content management: sleutelrol in digitale bibliotheek}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+      \verb{url}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

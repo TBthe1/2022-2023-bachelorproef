@@ -1,0 +1,12 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {section}{\numberline {1}Introductie}{1}{section.1}%
+\contentsline {section}{\numberline {2}State-of-the-art}{2}{section.2}%
+\contentsline {section}{\numberline {3}Methodologie}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Eerste fase - WordPress en WooCommerce automatiseren}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tweede fase - Een WordPress webshop overnemen}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Derde fase - Een niet-WordPress webshop overnemen}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Vierde fase - Uitbreiden van scenario's}{3}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Vijfde fase - Testen met de lijst}{3}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Verwacht resultaat, conclusie}{3}{section.4}%
+\contentsline {section}{Referenties}{3}{section.4}%
+\contentsfinish 

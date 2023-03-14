@@ -1,0 +1,85 @@
+%---------- Inleiding ---------------------------------------------------------
+
+\section{Introductie}%
+\label{sec:introductie}
+
+Om mensen zonder enige programmeerkennis de mogelijkheid te bieden om zelf een webshop te beheren, is een contentmanagementsysteem (CMS) een goede oplossing. Hierbij bepaalt de programmeur in welke mate er wijzigingen
+kunnen plaatsvinden aan de webshop, zonder dat de klant daarvoor zelf naar de code hoeft te kijken. Via een login systeem kan de klant zelf teksten en afbeeldingen wijzigen, zonder enige hulp van de programmeur. 
+Dit kan een interessante optie zijn voor de klant, wanneer de inhoud van de webshop regelmatig verandert (bv. wanneer
+er nieuwe producten in het assortiment verschijnen). In plaats van de programmeur extra te betalen
+voor elke wijziging, kan de klant dit op eigen initiatief aanpassen.
+\\\\
+In dit onderzoek zal met WordPress worden gewerkt, één van de meest bekende contentmanagementsystemen.
+Dit contentmanagementsysteem gebruikt de co-promotor (en zijn medewerkers) voor het overnemen van een webshop.
+Dit contentmanagementsysteem is volledig gratis en kan naast zelfgeschreven code ook m.b.v. plugins van extra functionaliteiten worden voorzien. WordPress is ontwikkeld voor blogwebsites en heeft standaard geen functionaliteiten voor het verkopen van producten. Hiervoor kan WooCommerce, een open-source e-commerce plug-in, gebruikt worden. ZO kan een WordPress website omgebouwd worden tot een webshop. 
+\\\\
+Hierbij kunnen een aantal mogelijke problemen optreden zoals:
+\begin{itemize}
+    \item De klant van de webshop die wordt overgenomen heeft geen toegang tot de broncode van zijn webshop
+    \item De webshop die wordt overgenomen is niet gemaakt in WordPress
+    \item De webshop die wordt overgenomen is wel gemaakt in WordPress, maar de artikelen zijn niet met WooCommerce voorzien
+    \item De webshop is wel gemaakt in WordPress met WooCommerce, maar de klant heeft geen toegang tot de artikelen en deze moeten bijgevolg allemaal manueel worden overgenomen
+    \item ...
+\end{itemize}
+
+Het doel van dit onderzoek is om een programma te schrijven dat, ongeacht welk scenario, een bestaande webshop kan overnemen.
+Hierbij zal altijd een stuk manueel werk aan te pas komen, maar veel stappen van dit proces kunnen worden geautomatiseerd.
+Tijdens dit onderzoek zal onderzocht worden welke stappen dit zijn, om in het geschreven programma te kunnen toepassen.
+De co-promotor en zijn medewerkers bij Team Made moeten in staat zijn om dit programma te hanteren. Zij zijn m.a.w. de doelgroep van dit onderzoek.  
+
+%---------- Stand van zaken ---------------------------------------------------
+
+\section{State-of-the-art}%
+\label{sec:state-of-the-art}
+
+Team Made, het bedrijf van de co-promotor werkt met WordPress als contentmanagementsysteem. Een contentmanagementsysteem laat de klanten toe hun teksten en afbeeldingen zelf aan te passen. Afhankelijk van de noden en wensen van de klant, het type webshop, het assortiment aan producten... kan het gebruik van professionele afbeeldingen voor een webshop belangrijk zijn. Deze hebben een groter formaat en bijgevolg ook meer opslagruimte nodig. Het is aan de webdeveloper om dit in het achterhoofd te houden bij het schrijven van een programma. Mogelijke oplossingen hiervoor zijn een automatische compressie toepassen of een limiet van bestandsgrootte te implementeren in het programma. \autocite{LatumenRonaldDekker2004}
+\\\\
+Niet elk contentmanagementsysteem is standaard voorzien van trackingtools om het gedrag van de gebruikers te analyseren. Afhankelijk van de opdracht van de klant, kan dit wel een noodzakelijke behoefte zijn die ergens in het programma moet worden geïmplementeerd. \autocite{DeBruijn2013}
+\\\\ 
+Om dit programma te onderhouden, denk aan toekomstig gebruik, is het noodzakelijk om enige technische achtergrond te hebben. Het hangt zowel van de leercurve van de webdeveloper zelf als van de complexiteit van een contentmanagementsysteem af hoelang het duurt eer de webdeveloper dit contentmanagementsysteem onder de knie heeft. \autocite{DriesBlanchaert2022}
+\\\\
+Een andere belangrijke factor is de beveiliging. Het is aan de webdeveloper zelf om hier alert in te zijn door bv. enkel betrouwbare plugins te installeren die goed onderhouden zijn. Dit onderzoek zal moeten bepalen of dit kan geïmplementeerd worden in het programma of dat dit best manueel werk blijft.  \autocite{Bottelbergs2013}    
+
+%---------- Methodologie ------------------------------------------------------
+\section{Methodologie}%
+\label{sec:methodologie}
+
+\subsection{Eerste fase - WordPress en WooCommerce automatiseren}
+
+In de eerste fase wordt het programma opgericht. Het moet in staat zijn om WordPress en WooCommerce op te zetten (in hun meest recente versie). Hier komen er allerlei zaken bij kijken zoals het koppelen van de databank, het opzetten van een eigen thema in WordPress, enzovoort. In een ideaal scenario geeft iemand van Team Made de info van een klant aan het programma mee (zoals het logo, de slogan, de naam ...) en doet het programma zelf verder al het nodige werk. 
+\\\\
+Het resultaat van deze fase is dus een dynamische automatisatie van een WordPress template met een WooCommerce plugin. De opzet van een webshop is klaar. Vermoedelijk zal deze fase niet veel werk in beslag nemen, maar zal het doorheen het onderzoek verschillende noodzakelijke aanpassingen krijgen (om in verscheidene scenario's te blijven werken). 
+
+\subsection{Tweede fase - Een WordPress webshop overnemen}
+
+De co-promotor heeft een hele lijst van webshops meegegeven om als use-cases te gebruiken. Hierbij neemt men een webshop die al reeds op WordPress met WooCommerce is gemaakt. In de eerste plaats wordt er gekeken wat er allemaal nodig is om manueel de webshop zoveel mogelijk over te nemen. Vervolgens wordt gekeken hoe dit programma dat kan verwezenlijken, om het dan effectief in het programma te implementeren. 
+\\\\
+Het resultaat van deze fase is een programma dat in staat is om een webshop van de lijst over te nemen, met zo weinig mogelijk manueel werk. Afhankelijk van de complexiteit van de originele webshop zal deze niet 100\% exact overeen komen. Deze fase zal vermoedelijk een aantal dagen in beslag nemen.
+
+\subsection{Derde fase - Een niet-WordPress webshop overnemen}
+
+De vorige fase wordt herhaald, maar deze keer met een webshop uit de lijst die niet op WordPress is gemaakt. Het programma moet in staat blijven om de eerste webshop nog steeds over te nemen. Het programma zal m.a.w. vanaf deze fase flexibel leren omgaan met verscheidene scenario's. Er kan hierbij ook al gekeken worden om performantie te verhogen.
+\\\\
+Het resultaat van deze fase is een programma dat zowel een WordPress als niet-WordPress webshop kan overnemen van de co-promotor zijn lijst. Afhankelijk van de complexiteit van de webshops kan dit sneller of trager verlopen dan de voorgaande fase.
+
+\subsection{Vierde fase - Uitbreiden van scenario's}
+
+We hebben momenteel een programma dat twee webshops kan overnemen. In deze fase gaan we het programma uitbreiden met mogelijke scenario's die hierbij kunnen optreden. Stel dat de artikelen van de bestaande webshops niet kunnen geëxporteerd worden, wat zijn de mogelijkheden om de artikelen toch nog te kunnen verkrijgen? Hoe voorkomen we dat Team Made niet manueel alles moet overnemen? Kan er gebruik worden gemaakt van bv. textreaders die alle artikelen overlopen? In deze fase focust het onderzoek zich op zulke vragen, met als uiteindelijk doel een oplossing voor een bepaald scenario te implementeren in het programma.
+\\\\
+Het resultaat van deze fase is hetzelfde als de voorgaande fase, met het verschil dat het programma met meer functionaliteiten voorzien is. Hierdoor zal Team Made veel tijd besparen door het programma te gebruiken voor scenario's die anders veel manueel werk zouden vragen. Afhankelijk van hoeveel scenario's er zijn, en hoe complex ze zijn, kan deze fase het meeste tijd in beslag nemen.
+
+\subsection{Vijfde fase - Testen met de lijst}
+
+In deze fase gaan we het programma testen door de lijst van de co-promotor verder af te lopen. In theorie zou het programma in staat moeten zijn om alle webshops hiervan over te nemen. We verwachten dat dit niet het geval zal zijn en dat er hier en daar nog wat mankementjes zullen optreden. Het is aan deze fase om alle optredende problemen op te kuisen en het programma zo flexibel mogelijk te maken.
+\\\\
+Het resultaat van deze fase is een goed uitgetest en werkend programma. Afhankelijk van het verloop van de voorgaande fases zal dit een fase zijn die actief blijft tot de eindperiode van het onderzoek. Hoe meer originele webshops van de lijst kunnen overgenomen worden, hoe beter.
+
+%---------- Verwachte resultaten ----------------------------------------------
+\section{Verwacht resultaat, conclusie}%
+\label{sec:verwachte_resultaten}
+
+Technologie evolueert heel snel. De verwachting is dat het zeer realistisch is dat het geschreven programma in de toekomst niet meer zal werken. Dit kan door bv. een kleine WordPress update die bepaalde business logica in het programma doet breken. Om dit probleem te voorkomen, kan doorheen het onderzoek gekeken worden om zoveel mogelijk versie-onafhankelijk code te schrijven. De verwachting is dat dit niet altijd zal lukken.
+\\\\
+Er zijn zodanig veel verschillende frameworks, tools en dergelijke op de markt dat het programma onmogelijk met alles rekening kan houden. De kans is vrij onrealistisch dat één programma in staat kan zijn om alle webshops van de co-promotor zijn lijst exact over te nemen. Er zal altijd wel nog een (groot) stuk manueel werk verplicht zijn door iemand met enige technische achtergrond.   
+\\\\
+Desondanks is er de verwachting dat het programma heel nuttig zal zijn en veel tijd zal besparen voor Team Made, al is het maar om kleine onderdelen van het hele overnameproces uit te voeren.  

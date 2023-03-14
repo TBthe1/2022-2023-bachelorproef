@@ -1,15 +1,19 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'TruyeBjorn-BPvoorstel.blg'
-[93] biber-MSWIN64:340> INFO - === 
-[127] Biber.pm:418> INFO - Reading 'TruyeBjorn-BPvoorstel.bcf'
-[234] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
-[248] Biber.pm:4383> INFO - Processing section 0
-[259] Biber.pm:4574> INFO - Looking for bibtex file 'voorstel.bib' for section 0
-[298] bibtex.pm:1713> INFO - LaTeX decoding ...
-[309] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
-[376] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[376] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[376] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[376] Biber.pm:4209> INFO - No sort tailoring available for locale 'nl-NL'
-[390] bbl.pm:654> INFO - Writing 'TruyeBjorn-BPvoorstel.bbl' with encoding 'UTF-8'
-[394] bbl.pm:757> INFO - Output to TruyeBjorn-BPvoorstel.bbl
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'TruyeBjorn-BPvoorstel.blg'
+[150] biber-MSWIN64:340> INFO - === 
+[193] Biber.pm:418> INFO - Reading 'TruyeBjorn-BPvoorstel.bcf'
+[332] Biber.pm:978> INFO - Found 10 citekeys in bib section 0
+[355] Biber.pm:4401> INFO - Processing section 0
+[369] Biber.pm:4592> INFO - Looking for bibtex file 'voorstel.bib' for section 0
+[430] bibtex.pm:1713> INFO - LaTeX decoding ...
+[449] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
+[532] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[532] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[532] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[532] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[557] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[557] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[558] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[558] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[575] bbl.pm:654> INFO - Writing 'TruyeBjorn-BPvoorstel.bbl' with encoding 'UTF-8'
+[584] bbl.pm:757> INFO - Output to TruyeBjorn-BPvoorstel.bbl
