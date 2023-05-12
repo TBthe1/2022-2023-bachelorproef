@@ -1,0 +1,202 @@
+%===============================================================================
+% LaTeX sjabloon voor de bachelorproef toegepaste informatica aan HOGENT
+% Meer info op https://github.com/HoGentTIN/latex-hogent-report
+%===============================================================================
+
+\documentclass[dutch,dit,thesis]{hogentreport}
+
+%% Pictures to include in the text can be put in the graphics/ folder
+\graphicspath{{graphics/}}
+
+%% For source code highlighting, requires pygments to be installed
+%% Compile with the -shell-escape flag!
+\usepackage[section]{minted}
+\usemintedstyle{solarized-light}
+\definecolor{bg}{RGB}{253,246,227} %% Set the background color of the codeframe
+
+%% Change this line to edit the line numbering style:
+\renewcommand{\theFancyVerbLine}{\ttfamily\scriptsize\arabic{FancyVerbLine}}
+
+%% Macro definition to load external java source files with \javacode{filename}:
+\newmintedfile[javacode]{java}{
+    bgcolor=bg,
+    fontfamily=tt,
+    linenos=true,
+    numberblanklines=true,
+    numbersep=5pt,
+    gobble=0,
+    framesep=2mm,
+    funcnamehighlighting=true,
+    tabsize=4,
+    obeytabs=false,
+    breaklines=true,
+    mathescape=false
+    samepage=false,
+    showspaces=false,
+    showtabs =false,
+    texcl=false,
+}
+
+% Other packages not already included can be imported here
+\usepackage{xcolor} % Voeg het xcolor-pakket toe voor kleurdefinities
+\usepackage{pdfpages}
+
+% Definieer kleuren voor syntax highlighting
+\definecolor{codebg}{RGB}{240, 240, 240} % Achtergrondkleur van de code
+\definecolor{codecomment}{RGB}{106, 153, 85} % Kleur van opmerkingen
+\definecolor{codekeyword}{RGB}{166, 35, 35} % Kleur van keywords
+\definecolor{codestring}{RGB}{42, 0, 255} % Kleur van strings
+
+% Configureer minted
+\usemintedstyle{default} % Kies een stijl voor de code (bijv. 'default', 'vs', 'friendly', 'colorful', etc.)
+\setminted{
+    bgcolor=codebg, % Achtergrondkleur
+    fontsize=\footnotesize, % Lettergrootte
+    linenos=true, % Plaatsing van regelnummers
+    breaklines=true, % Automatisch afbreken van lange regels
+    frame=leftline, % Plaatsing van frame rondom de code (leftline = lijn aan de linkerkant)
+    framesep=10pt, % Afstand tussen frame en code
+    rulecolor=\color{black}, % Kleur van het frame
+    numbersep=15pt, % Afstand tussen regelnummers en code (aangepast)
+    xleftmargin=0pt, % Marge aan de linkerkant van het kader (op 0pt zetten)
+}
+
+
+%%---------- Document metadata -------------------------------------------------
+\author{Truye Bjorn}
+\supervisor{Mevr. S. Lambert}
+\cosupervisor{Dhr. D. Matthijs}
+\title
+    {Strategieën om de overname van bestaande webshops naar WordPress met WooCommerce te stroomlijnen: een onderzoek en proof-of-concept.}
+\academicyear{\advance\year by -1 \the\year--\advance\year by 1 \the\year}
+\examperiod{1}
+\degreesought{\IfLanguageName{dutch}{Professionele bachelor in de toegepaste informatica}{Bachelor of applied computer science}}
+\partialthesis{false} %% To display 'in partial fulfilment'
+%\institution{Internshipcompany BVBA.}
+
+%% Add global exceptions to the hyphenation here
+\hyphenation{back-slash}
+
+%% The bibliography (style and settings are  found in hogentthesis.cls)
+\addbibresource{bachproef.bib}            %% Bibliography file
+\addbibresource{../voorstel_v2/TruyeBjorn-BPvoorstel.bib} %% Bibliography research proposal
+\defbibheading{bibempty}{}
+
+%% Prevent empty pages for right-handed chapter starts in twoside mode
+\renewcommand{\cleardoublepage}{\clearpage}
+
+\renewcommand{\arraystretch}{1.2}
+
+%% Content starts here.
+\begin{document}
+
+%---------- Front matter -------------------------------------------------------
+
+\frontmatter
+
+\hypersetup{pageanchor=false} %% Disable page numbering references
+%% Render a Dutch outer title page if the main language is English
+\IfLanguageName{english}{%
+    %% If necessary, information can be changed here
+    \degreesought{Professionele Bachelor toegepaste informatica}%
+    \begin{otherlanguage}{dutch}%
+       \maketitle%
+    \end{otherlanguage}%
+}{}
+
+%% Generates title page content
+\maketitle
+\hypersetup{pageanchor=true}
+
+\input{voorwoord}
+\input{samenvatting}
+
+%---------- Inhoud, lijst figuren, ... -----------------------------------------
+
+\tableofcontents
+
+% In a list of figures, the complete caption will be included. To prevent this,
+% ALWAYS add a short description in the caption!
+%
+%  \caption[short description]{elaborate description}
+%
+% If you do, only the short description will be used in the list of figures
+
+\listoffigures
+
+% If you included tables and/or source code listings, uncomment the appropriate
+% lines.
+%\listoftables
+%\listoflistings
+
+% Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die
+% hier thuis. Gebruik bijvoorbeeld de ``glossaries'' package.
+% https://www.overleaf.com/learn/latex/Glossaries
+
+%---------- Kern ---------------------------------------------------------------
+
+\mainmatter{}
+
+% De eerste hoofdstukken van een bachelorproef zijn meestal een inleiding op
+% het onderwerp, literatuurstudie en verantwoording methodologie.
+% Aarzel niet om een meer beschrijvende titel aan deze hoofdstukken te geven of
+% om bijvoorbeeld de inleiding en/of stand van zaken over meerdere hoofdstukken
+% te verspreiden!
+
+\input{inleiding}
+\input{standvanzaken}
+\input{methodologie}
+
+% Voeg hier je eigen hoofdstukken toe die de ``corpus'' van je bachelorproef
+% vormen. De structuur en titels hangen af van je eigen onderzoek. Je kan bv.
+% elke fase in je onderzoek in een apart hoofdstuk bespreken.
+
+\input{stappenplan}
+%\input{...}
+%...
+
+\input{conclusie}
+
+%---------- Bijlagen -----------------------------------------------------------
+
+\appendix
+
+\chapter{Onderzoeksvoorstel}
+
+Het onderwerp van deze bachelorproef is gebaseerd op een onderzoeksvoorstel dat vooraf werd beoordeeld door de promotor. Dat voorstel is opgenomen in deze bijlage.
+
+%% TODO: 
+%\section*{Samenvatting}
+
+% Kopieer en plak hier de samenvatting (abstract) van je onderzoeksvoorstel.
+In deze bachelorproef zal onderzoek worden gedaan naar het proces om bestaande webshops over te nemen. Hierbij wordt een reeds bestaande webshop omgezet in een nieuwe webshop die gemaakt is op WordPress, en met WooCommerce zal werken.
+Dit proces kan afhankelijk van verschillende factoren (zoals toegang tot de back-end van de originele webshop, databank, broncode, aantal artikelen, ...) veel tijd en manueel werk in beslag nemen. Dit onderzoek zal achterhalen of dit proces van webshop overname sneller, eenvoudiger en (deels) geautomatiseerd kan verlopen door eventueel gebruik te maken van externe AI-tools.
+\\
+Het probleem is dat het hele overnameproces veel manueel werk en tijd vergt, en de centrale onderzoeksvraag is hoe kan dit vereenvoudigd worden met een zelfgeschreven programma.
+\\ 
+Dit onderzoek start met een lijst van webshops die de co-promotor heeft voorzien. 
+Vervolgens wordt een programma geschreven om één webshop hiervan (in de mate van het mogelijke) volledig over te nemen met zoveel mogelijk details. Hierbij zal onderzoek naar de mogelijkheden van WordPress en WooCommerce noodzakelijk zijn.
+Vervolgens wordt het programma steeds uitgebreid op nieuwe scenario's (bv. een originele webshop die wel of niet reeds op WordPress zit). Dit proces wordt herhaald tot het programma alle originele webshops van de lijst kan overnemen, met zoveel mogelijk gelijkenissen.
+\\ 
+De verwachting is dat het programma, afhankelijk van de originele webshop, limieten gaat hebben op wat kan overgenomen worden, maar desondanks nog steeds sneller zal zijn dan alles manueel over te nemen.
+Omdat de originele webshops zeer verschillend kunnen zijn van elkaar, zal het programma zeer flexibel moeten zijn. De kans is relatief groot dat niet al het manueel werk van een webshop overname geautomatiseerd kan worden.
+\\
+De meerwaarde van dit programma is dat het bedrijf van de co-promotor kostbare tijd en budget zal besparen.
+\\
+Het uiteindelijke resultaat zal een geschreven programma zijn dat de co-promotor (en zijn medewerkers bij Team Made) kan hanteren om zijn werk sneller te voltooien. Met zoweinig mogelijk manuele input kan het geschreven programma een bestaande webshop overnemen, en omzetten naar een nieuwe webshop gemaakt op WordPress met WooCommerce.
+
+% Verwijzing naar het bestand met de inhoud van het onderzoeksvoorstel
+\input{../voorstel_v2/voorstel-inhoud}
+
+%%---------- Andere bijlagen --------------------------------------------------
+% TODO: Voeg hier eventuele andere bijlagen toe. Bv. als je deze BP voor de
+% tweede keer indient, een overzicht van de verbeteringen t.o.v. het origineel.
+
+%%---------- Backmatter, referentielijst ---------------------------------------
+
+\backmatter{}
+
+\setlength\bibitemsep{2pt} %% Add Some space between the bibliograpy entries
+\printbibliography[heading=bibintoc]
+
+\end{document}

@@ -1,0 +1,2605 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Beckers2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=648309eed607005e6a8c8c087c397169}{%
+           family={Beckers},
+           familyi={B\bibinitperiod},
+           given={Joris},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bd3d28bc053ddd9d31c309d74cc10fc}{%
+           family={Weekx},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d46d397ed756c1504752fd2c25da9e21}{%
+           family={Beutels},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c7fffb39f9ef3749aaf750bef2211cf}{%
+           family={Verhetsel},
+           familyi={V\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01e9acc15b3e77685dac90f7cc959351}
+      \strng{fullhash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{bibnamehash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{authorbibnamehash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{authornamehash}{01e9acc15b3e77685dac90f7cc959351}
+      \strng{authorfullhash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since the turn of the century especially small, local retailers struggle with the advent of e-commerce. It is hence no surprise that the retail sector is one of the hardest-hit sectors in the current pandemic. To understand the short- and longer-term impacts of COVID-19 on retail, we conducted two surveys to understand ongoing changes in the sector. By contrasting changing consumer behavior with the actions taken by local retailers, we assess whether the current pandemic is potentially a catalyst for e-commerce in Belgium. We do this based on a newly constructed framework of e-retail accessibility, as the differences between online and physical retail require a revision of the traditional economic geographical perspective on retail performance as introduced by Christaller (1933). We conclude that the COVID-19 pandemic holds ample opportunities for an increase in the three components of e-retail accessibility, but that a lack of professionalism might prevent traditional local retailers to retain a share of the expanded online market. This could well mean the final blow for local brick and mortar shops if, as is predicted, the share of online shopping in total retail expenditure remains high after the pandemic.}
+      \field{issn}{0969-6989}
+      \field{journaltitle}{Journal of Retailing and Consumer Services}
+      \field{title}{COVID-19 and retail: The catalyst for e-commerce in Belgium?}
+      \field{volume}{62}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{102645}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jretconser.2021.102645
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969698921002113
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969698921002113
+      \endverb
+      \keyw{e-commerce,Retail,Covid-19,Christaller,Accessibility,Belgium}
+    \endentry
+    \entry{Bellens2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=046439c1f2b4497829eed1d90ba27c40}{%
+           family={Bellens},
+           familyi={B\bibinitperiod},
+           given={Els},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{fullhash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{bibnamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authorbibnamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authornamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authorfullhash}{046439c1f2b4497829eed1d90ba27c40}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{journaltitle}{Ook Bing AI maakte fouten in demonstratie}
+      \field{month}{3}
+      \field{title}{Ook Bing AI maakte fouten in demonstratie}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://datanews.knack.be/nieuws/ook-bing-ai-maakte-fouten-in-demonstratie/
+      \endverb
+      \verb{url}
+      \verb https://datanews.knack.be/nieuws/ook-bing-ai-maakte-fouten-in-demonstratie/
+      \endverb
+    \endentry
+    \entry{Bottelbergs2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7bfc5b67039d1c4e2503e25e936a750}{%
+           family={Bottelbergs},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{fullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{bibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorbibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authornamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorfullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparative study on the security of open source web content management systems}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptieprijs.be/sites/default/files/A Comparative Study On The Security Of Open Source Web Content Management Systems.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptieprijs.be/sites/default/files/A%20Comparative%20Study%20On%20The%20Security%20Of%20Open%20Source%20Web%20Content%20Management%20Systems.pdf
+      \endverb
+    \endentry
+    \entry{Braun2019}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6a3d37f69e57d79cc397dc282464f563}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28f1b9616cc4b8c57300f9078838983b}{%
+           family={Scepankova},
+           familyi={S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ab921c8c293b7890059bde8d064192e}{%
+           family={Holl},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a084c836fd0cc69afdd64930cf367c}{%
+           family={Matthes},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=3e72b4309439de3f8685c82c06787a60}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d347b4b7dff45e7f3798f6731c81ce39}{%
+           family={Geihs},
+           familyi={G\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=026bcaf26338cd485672c7b4e32c9ff7}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98d2cffeba0d82667e344897db264eab}{%
+           family={Stumme},
+           familyi={S\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Gesellschaft für Informatik e.V.}%
+      }
+      \strng{namehash}{1086667cb9899a1f9bf8dca77f0aa1f2}
+      \strng{fullhash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{bibnamehash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{authorbibnamehash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{authornamehash}{1086667cb9899a1f9bf8dca77f0aa1f2}
+      \strng{authorfullhash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{editorbibnamehash}{98ae205c837d9e244ef327f3224d8690}
+      \strng{editornamehash}{1780cd1fd503fb0bb14f5e4f2db6ea8d}
+      \strng{editorfullhash}{98ae205c837d9e244ef327f3224d8690}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{INFORMATIK 2019: 50 Jahre Gesellschaft für Informatik – Informatik für Gesellschaft}
+      \field{title}{Consumer Protection in the Digital Era: The Potential of Customer-Centered LegalTech}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{407\bibrangedash 420}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18420/inf2019_58
+      \endverb
+    \endentry
+    \entry{Bridle2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b136f7974a995909210006a49b0436f}{%
+           family={Bridle},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b136f7974a995909210006a49b0436f}
+      \strng{fullhash}{0b136f7974a995909210006a49b0436f}
+      \strng{bibnamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authorbibnamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authornamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authorfullhash}{0b136f7974a995909210006a49b0436f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{The stupidity of AI}
+      \field{month}{3}
+      \field{subtitle}{Artificial intelligence in its current form is based on the wholesale appropriation of existing culture, and the notion that it is actually intelligent could be actively dangerous}
+      \field{title}{The stupidity of AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/technology/2023/mar/16/the-stupidity-of-ai-artificial-intelligence-dall-e-chatgpt
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/technology/2023/mar/16/the-stupidity-of-ai-artificial-intelligence-dall-e-chatgpt
+      \endverb
+    \endentry
+    \entry{Browning2001}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e7aa42e0350bae2d1bc850ee116cf93f}{%
+           family={Browning},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49f3bf7625a7c467f615b2a825f29554}{%
+           family={Lowndes},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{fullhash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{bibnamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authorbibnamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authornamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authorfullhash}{5b824300a9f33827365269d4bd0e3328}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Techwatch report TSW}
+      \field{title}{JISC techwatch report: content management systems}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{01\bibrangedash 02}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.bestpracticeinstitute.org/images/cs_references/cs_209/Web Content Management.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bestpracticeinstitute.org/images/cs_references/cs_209/Web%20Content%20Management.pdf
+      \endverb
+    \endentry
+    \entry{Brownlee2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39d39f38e4cbf62c98c87365783adf18}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Marques},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{fullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{bibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorbibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authornamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorfullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{2}
+      \field{title}{The Biggest Problem with AI!}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=7emz4zZ226E
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=7emz4zZ226E
+      \endverb
+    \endentry
+    \entry{Brownlee2023a}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39d39f38e4cbf62c98c87365783adf18}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Marques},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{fullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{bibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorbibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authornamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorfullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{10}
+      \field{subtitle}{My actual thoughts on the "metaverse" and VR and AR right now.}
+      \field{title}{Who Cares About the Metaverse?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=CqkhjL3WvWQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=CqkhjL3WvWQ
+      \endverb
+    \endentry
+    \entry{Das2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=527887622370b5f14e036a6b50f440e0}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Mehul\bibnamedelima Reuben},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{fullhash}{527887622370b5f14e036a6b50f440e0}
+      \strng{bibnamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authorbibnamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authornamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authorfullhash}{527887622370b5f14e036a6b50f440e0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{3}
+      \field{subtitle}{OpenAI's president Greg Brockman showcased the GPT-4's latest feature, its support for multimodality for instructions in the form of text, visual image or sound. For his demonstration, he just drew a website on a napkin and got GPT-4 to code one for him.}
+      \field{title}{Code Comfort: Man draws website idea on a napkin, shows GPT-4, AI bot codes it in seconds}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.firstpost.com/world/man-draws-website-idea-on-a-napkin-shows-gpt-4-ai-bot-codes-it-in-seconds-12296132.html
+      \endverb
+      \verb{url}
+      \verb https://www.firstpost.com/world/man-draws-website-idea-on-a-napkin-shows-gpt-4-ai-bot-codes-it-in-seconds-12296132.html
+      \endverb
+    \endentry
+    \entry{Dawes2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0ed6644344b0cee56f0a7999fc49a71}{%
+           family={Dawes},
+           familyi={D\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{fullhash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{bibnamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authorbibnamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authornamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authorfullhash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{journaltitle}{Google's Bard}
+      \field{month}{3}
+      \field{title}{Google Releases Bard, the Generative AI Rival to ChatGPT}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://skift.com/blog/google-releases-bard-the-generative-ai-rival-to-chatgpt/
+      \endverb
+      \verb{url}
+      \verb https://skift.com/blog/google-releases-bard-the-generative-ai-rival-to-chatgpt/
+      \endverb
+    \endentry
+    \entry{DeBruijn2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ec15517384f7b0de53943892a5e4fdc}{%
+           family={De\bibnamedelima Bruijn},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           suffix={A.\bibnamedelimi ;\bibnamedelimb Van\bibnamedelima Dorth},
+           suffixi={A\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{2}{%
+        {Electrical Engineering, Mathematics}%
+        {Computer Science}%
+      }
+      \strng{namehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{fullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{bibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorbibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authornamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorfullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{2}
+      \field{title}{BSc-project: Geautomatiseerde webstatistiekanalyse en website-prestatie-indicatie}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+      \verb{url}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+    \endentry
+    \entry{Dent2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d64ddb22e3a431f9b5f3cda91425164}{%
+           family={Dent},
+           familyi={D\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{fullhash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{bibnamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authorbibnamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authornamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authorfullhash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Microsoft begins making Bing Chat AI searches available to everyone}
+      \field{month}{3}
+      \field{subtitle}{Try it for yourself today.}
+      \field{title}{Microsoft begins making Bing Chat AI searches available to everyone}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.engadget.com/microsoft-begins-making-bing-chat-ai-searches-available-to-everyone-102506412.html
+      \endverb
+      \verb{url}
+      \verb https://www.engadget.com/microsoft-begins-making-bing-chat-ai-searches-available-to-everyone-102506412.html
+      \endverb
+    \endentry
+    \entry{DriesBlanchaert2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9abb2f27241b5ef79b22718242b48a}{%
+           family={Dries\bibnamedelima Blanchaert},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Veerle\bibnamedelimb Van\bibnamedelima Hauwenhuyse},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Master in de toegepaste informatica}%
+      }
+      \strng{namehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{fullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{bibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorbibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authornamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorfullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{8}
+      \field{title}{Migratie van een website naar een nieuw contentmanagementsysteem}
+      \field{type}{mathesis}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+      \verb{url}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+    \endentry
+    \entry{Dumitrescu2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23b8bf506b27986582dfefc497c4e026}{%
+           family={Dumitrescu},
+           familyi={D\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{fullhash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{bibnamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authorbibnamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authornamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authorfullhash}{23b8bf506b27986582dfefc497c4e026}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{journaltitle}{Will ChatGPT Kill the Student Essay? Universities Aren’t Ready for the Answer}
+      \field{month}{3}
+      \field{subtitle}{AI is here to stay. It’s up to educators to articulate why writing still matters}
+      \field{title}{Will ChatGPT Kill the Student Essay? Universities Aren’t Ready for the Answer}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://thewalrus.ca/chatgpt-writing/
+      \endverb
+      \verb{url}
+      \verb https://thewalrus.ca/chatgpt-writing/
+      \endverb
+    \endentry
+    \entry{Grey2017}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a458a77da30ab1b1a36b0a9f0dfe9637}{%
+           family={Grey},
+           familyi={G\bibinitperiod},
+           given={CGP},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{fullhash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{bibnamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authorbibnamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authornamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authorfullhash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{12}
+      \field{title}{How AIs, like ChatGPT, Learn}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+      \endverb
+    \endentry
+    \entry{Hendrikman2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7911889460b4884f718fbcf79c85128}{%
+           family={Hendrikman},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{fullhash}{c7911889460b4884f718fbcf79c85128}
+      \strng{bibnamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authorbibnamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authornamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authorfullhash}{c7911889460b4884f718fbcf79c85128}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Microsoft gaat generatieve AI verwerken in Microsoft 365-kantoortoepassingen}
+      \field{month}{3}
+      \field{subtitle}{Microsoft gaat door GPT4 aangedreven AI verwerken in zijn Microsoft 365-applicaties. De apps kunnen door de AI gegenereerde e-mails, documenten, presentaties, en meer produceren. Ook komt er een zakelijke tegenhanger van Bing Chat, genaamd Business Chat.}
+      \field{title}{Microsoft gaat generatieve AI verwerken in Microsoft 365-kantoortoepassingen}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://tweakers.net/nieuws/207738/microsoft-gaat-generatieve-ai-verwerken-in-microsoft-365-kantoortoepassingen.html
+      \endverb
+      \verb{url}
+      \verb https://tweakers.net/nieuws/207738/microsoft-gaat-generatieve-ai-verwerken-in-microsoft-365-kantoortoepassingen.html
+      \endverb
+    \endentry
+    \entry{Howley2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d88aea39124d0aa8544331e86801b019}{%
+           family={Howley},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{fullhash}{d88aea39124d0aa8544331e86801b019}
+      \strng{bibnamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authorbibnamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authornamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authorfullhash}{d88aea39124d0aa8544331e86801b019}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{Meta is pushing the metaverse aside for AI}
+      \field{month}{3}
+      \field{title}{Meta is pushing the metaverse aside for AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://finance.yahoo.com/news/meta-is-pushing-the-metaverse-aside-for-ai-172133199.html
+      \endverb
+      \verb{url}
+      \verb https://finance.yahoo.com/news/meta-is-pushing-the-metaverse-aside-for-ai-172133199.html
+      \endverb
+    \endentry
+    \entry{Jose2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8151de3e77a1d577fc91139d258344a}{%
+           family={Jose},
+           familyi={J\bibinitperiod},
+           given={Bijin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{fullhash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{bibnamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authorbibnamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authornamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authorfullhash}{a8151de3e77a1d577fc91139d258344a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{5}
+      \field{subtitle}{The plugin allows the chatbot to effectively run several tasks. Developers have been experimenting with it since it was introduced.}
+      \field{title}{GPT-4 is old news: ChatGPT Code Interpreter plugin is redefining AI tech}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://indianexpress.com/article/technology/artificial-intelligence/gpt-4-is-old-news-chatgpt-code-interpreter-plugin-is-redefining-ai-8595157/#:~:text=The plugin allows the chatbot,it since it was introduced.&text=OpenAI's sensational AI-powered chatbot,its launch in November 2022.
+      \endverb
+      \verb{url}
+      \verb https://indianexpress.com/article/technology/artificial-intelligence/gpt-4-is-old-news-chatgpt-code-interpreter-plugin-is-redefining-ai-8595157/#:~:text=The%20plugin%20allows%20the%20chatbot,it%20since%20it%20was%20introduced.&text=OpenAI's%20sensational%20AI-powered%20chatbot,its%20launch%20in%20November%202022.
+      \endverb
+    \endentry
+    \entry{KnorrEvans2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2ead328afa6c3c3b22eb57b9e0c7595}{%
+           family={Knorr-Evans},
+           familyi={K\bibinithyphendelim E\bibinitperiod},
+           given={Maite},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{fullhash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{bibnamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authorbibnamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authornamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authorfullhash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Is GPT-4 better than ChatGPT? What are the differences?}
+      \field{month}{3}
+      \field{subtitle}{Chat GPT-4 is here, and the opinions are mixed on the updates. We asked the updated chatbot some questions.}
+      \field{title}{Is GPT-4 better than ChatGPT? What are the differences?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.as.com/latest_news/is-gpt-4-better-than-chatgpt-what-are-the-differences-n/
+      \endverb
+      \verb{url}
+      \verb https://en.as.com/latest_news/is-gpt-4-better-than-chatgpt-what-are-the-differences-n/
+      \endverb
+    \endentry
+    \entry{Laster2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7f7f5cb24de4cb0cf234a7a2a396b5f3}{%
+           family={Laster},
+           familyi={L\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{fullhash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{bibnamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authorbibnamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authornamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authorfullhash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{4}
+      \field{title}{A Short Recap of Our Q2-2023 Roadmap Event}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://elementor.com/blog/a-quick-look-at-q2-2023/
+      \endverb
+      \verb{url}
+      \verb https://elementor.com/blog/a-quick-look-at-q2-2023/
+      \endverb
+    \endentry
+    \entry{Leemputten2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef8cc08b611a7472760543508c975d67}{%
+           family={Leemputten},
+           familyi={L\bibinitperiod},
+           given={Pieterjan\bibnamedelima Van},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{fullhash}{ef8cc08b611a7472760543508c975d67}
+      \strng{bibnamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authorbibnamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authornamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authorfullhash}{ef8cc08b611a7472760543508c975d67}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{5}
+      \field{title}{Populaire WordPress-plugin maakt 2 miljoen websites kwetsbaar}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://datanews.knack.be/nieuws/security/kwetsbaarheden/populaire-wordpress-plugin-maakt-2-miljoen-websites-kwetsbaar/
+      \endverb
+      \verb{url}
+      \verb https://datanews.knack.be/nieuws/security/kwetsbaarheden/populaire-wordpress-plugin-maakt-2-miljoen-websites-kwetsbaar/
+      \endverb
+    \endentry
+    \entry{Leong2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=306010caa838d6597aeeaff394e45a5f}{%
+           family={Leong},
+           familyi={L\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{fullhash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{bibnamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authorbibnamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authornamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authorfullhash}{306010caa838d6597aeeaff394e45a5f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{Here’s why ChatGPT might be ‘at capacity’ for you still}
+      \field{month}{2}
+      \field{title}{Here’s why ChatGPT might be ‘at capacity’ for you still}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.digitaltrends.com/computing/chatgpt-is-at-capacity-and-is-frustrating-new-people-everywhere/
+      \endverb
+      \verb{url}
+      \verb https://www.digitaltrends.com/computing/chatgpt-is-at-capacity-and-is-frustrating-new-people-everywhere/
+      \endverb
+    \endentry
+    \entry{MartinezCaro2018}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ff49d3e05d887f8fb9891f172d991c85}{%
+           family={Martinez-Caro},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Jose-Manuel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e72dd3395b5b71c225af180308319ab}{%
+           family={Aledo-Hernandez},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Antonio-Jose},
+           giveni={A\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7daf25894a5bd473f8abb152e7d476c6}{%
+           family={Guillen-Perez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f16c0ae3c200cc8f686ccc1a27f2f19}{%
+           family={Sanchez-Iborra},
+           familyi={S\bibinithyphendelim I\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=597fcb7683b269b9c9669bbebcb68e6f}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Maria-Dolores},
+           giveni={M\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{d2157c97a98cb763e87753e0c3271321}
+      \strng{fullhash}{4c8c06d48833133070038c03c33e83de}
+      \strng{bibnamehash}{4c8c06d48833133070038c03c33e83de}
+      \strng{authorbibnamehash}{4c8c06d48833133070038c03c33e83de}
+      \strng{authornamehash}{d2157c97a98cb763e87753e0c3271321}
+      \strng{authorfullhash}{4c8c06d48833133070038c03c33e83de}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information}
+      \field{number}{2}
+      \field{title}{A comparative study of web content management systems}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{27}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/257970
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/257970
+      \endverb
+    \endentry
+    \entry{MatthiasF.Treutner2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22fe31d704f9208fdb89da12d2a7e22e}{%
+           family={Matthias\bibnamedelimb F.\bibnamedelimi Treutner},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Herwig\bibnamedelima Ostermann},
+           giveni={H\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {University of Health Sciences, Medical Informatics}%
+        {Technology}%
+      }
+      \strng{namehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{fullhash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{bibnamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authorbibnamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authornamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authorfullhash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{8}
+      \field{title}{Evolution of Standard Web Shop Software Systems: A Review and Analysis of Literature and Market Surveys}
+      \field{type}{phdthesis}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=00e033169f02f2497f8979e64adf1a0a69325e4d
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=00e033169f02f2497f8979e64adf1a0a69325e4d
+      \endverb
+    \endentry
+    \entry{MelissaHeikkilaea2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dff74653be03662221c7321a105bd4fb}{%
+           family={Melissa\bibnamedelima Heikkiläa},
+           familyi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Will\bibnamedelimb Douglas\bibnamedelima Heaven},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{fullhash}{dff74653be03662221c7321a105bd4fb}
+      \strng{bibnamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authorbibnamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authornamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authorfullhash}{dff74653be03662221c7321a105bd4fb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{What’s next for AI}
+      \field{month}{12}
+      \field{subtitle}{Get a head start with our four big bets for 2023.}
+      \field{title}{What’s next for AI}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.technologyreview.com/2022/12/23/1065852/whats-next-for-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.technologyreview.com/2022/12/23/1065852/whats-next-for-ai/
+      \endverb
+    \endentry
+    \entry{Paris2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b829f1080cb4e0a0637e894d87b7e05}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={Martine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{fullhash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{bibnamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authorbibnamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authornamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authorfullhash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{4}
+      \field{title}{Google At Risk Of Losing Samsung And Apple Phone Deal To Microsoft AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.forbes.com/sites/martineparis/2023/04/17/google-160-ai-staffers-shocked-that-samsung-apple-phone-exclusive-at-risk/?sh=3477f0db1553
+      \endverb
+      \verb{url}
+      \verb https://www.forbes.com/sites/martineparis/2023/04/17/google-160-ai-staffers-shocked-that-samsung-apple-phone-exclusive-at-risk/?sh=3477f0db1553
+      \endverb
+    \endentry
+    \entry{Patel2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b47262158b27055e25a82ad1a51e491d}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Savan\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e970b762163651311421df52929f59}{%
+           family={Rathod},
+           familyi={R\bibinitperiod},
+           given={VR},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e68acfe405160cdc02d45c802383b41}{%
+           family={Prajapati},
+           familyi={P\bibinitperiod},
+           given={Jigna\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{7b3be326f4d105ae1485de05d8d487b8}
+      \strng{fullhash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{bibnamehash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{authorbibnamehash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{authornamehash}{7b3be326f4d105ae1485de05d8d487b8}
+      \strng{authorfullhash}{21c399e74753bb348de6b2546594ea4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{number}{4}
+      \field{title}{Performance analysis of content management systems-joomla, drupal and wordpress}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{39\bibrangedash 43}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=174a32cc9685783321238150dd53ffe98ebfc009
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=174a32cc9685783321238150dd53ffe98ebfc009
+      \endverb
+    \endentry
+    \entry{Roggeveen2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=74fe63fe29dc619e88a77ce7f7a3d73a}{%
+           family={Roggeveen},
+           familyi={R\bibinitperiod},
+           given={Anne\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16ffd8bd4438d1edd49298649bc44825}{%
+           family={Sethuraman},
+           familyi={S\bibinitperiod},
+           given={Raj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{fullhash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{bibnamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authorbibnamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authornamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authorfullhash}{71fccf35b9c445259388ac5ffced6c3e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4359}
+      \field{journaltitle}{Journal of Retailing}
+      \field{number}{2}
+      \field{title}{How the COVID-19 Pandemic May Change the World of Retailing}
+      \field{volume}{96}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{169\bibrangedash 171}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jretai.2020.04.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022435920300208
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022435920300208
+      \endverb
+    \endentry
+    \entry{Tips2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c41da8f993f7cff3a5ad3238a6086195}{%
+           family={Tips},
+           familyi={T\bibinitperiod},
+           given={Linus\bibnamedelima Tech},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{fullhash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{bibnamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authorbibnamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authornamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authorfullhash}{c41da8f993f7cff3a5ad3238a6086195}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{12}
+      \field{title}{I Have to Do Everything this AI Says - ChatGPT Builds a PC}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=kuTTAuUorsI
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=kuTTAuUorsI
+      \endverb
+    \endentry
+    \entry{LatumenRonaldDekker2004}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51432f39a29d0098e8e34eaa93d3baf8}{%
+           family={Latum\bibnamedelimb en\bibnamedelimb Ronald\bibnamedelima Dekker},
+           familyi={L\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Frits},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{fullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{bibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorbibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authornamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorfullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content management: sleutelrol in digitale bibliotheek}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+      \verb{url}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+    \endentry
+    \entry{WillKnight2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32979d327b0fa9153e3d6162c81a472b}{%
+           family={Will\bibnamedelima Knight},
+           familyi={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Khari\bibnamedelima Johnson},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{fullhash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{bibnamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authorbibnamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authornamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authorfullhash}{32979d327b0fa9153e3d6162c81a472b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{journaltitle}{Now That ChatGPT Is Plugged In, Things Could Get Weird}
+      \field{month}{3}
+      \field{subtitle}{Letting the chatbot interact with the live internet will make it more useful—and more problematic, too.}
+      \field{title}{Now That ChatGPT Is Plugged In, Things Could Get Weird}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wired.com/story/chatgpt-plugins-openai/
+      \endverb
+      \verb{url}
+      \verb https://www.wired.com/story/chatgpt-plugins-openai/
+      \endverb
+    \endentry
+    \entry{ZoeKleinman2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae23b74f3ae05c9bbd3a1a352edd965c}{%
+           family={Zoe\bibnamedelima Kleinman},
+           familyi={Z\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Chris\bibnamedelima Vallance},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{fullhash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{bibnamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authorbibnamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authornamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authorfullhash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{5}
+      \field{title}{AI 'godfather' Geoffrey Hinton warns of dangers as he quits Google}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.com/news/world-us-canada-65452940
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/news/world-us-canada-65452940
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Beckers2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=648309eed607005e6a8c8c087c397169}{%
+           family={Beckers},
+           familyi={B\bibinitperiod},
+           given={Joris},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bd3d28bc053ddd9d31c309d74cc10fc}{%
+           family={Weekx},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d46d397ed756c1504752fd2c25da9e21}{%
+           family={Beutels},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c7fffb39f9ef3749aaf750bef2211cf}{%
+           family={Verhetsel},
+           familyi={V\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01e9acc15b3e77685dac90f7cc959351}
+      \strng{fullhash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{bibnamehash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{authorbibnamehash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \strng{authornamehash}{01e9acc15b3e77685dac90f7cc959351}
+      \strng{authorfullhash}{8ef6ab7772769f4606ddfbf36eafb317}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since the turn of the century especially small, local retailers struggle with the advent of e-commerce. It is hence no surprise that the retail sector is one of the hardest-hit sectors in the current pandemic. To understand the short- and longer-term impacts of COVID-19 on retail, we conducted two surveys to understand ongoing changes in the sector. By contrasting changing consumer behavior with the actions taken by local retailers, we assess whether the current pandemic is potentially a catalyst for e-commerce in Belgium. We do this based on a newly constructed framework of e-retail accessibility, as the differences between online and physical retail require a revision of the traditional economic geographical perspective on retail performance as introduced by Christaller (1933). We conclude that the COVID-19 pandemic holds ample opportunities for an increase in the three components of e-retail accessibility, but that a lack of professionalism might prevent traditional local retailers to retain a share of the expanded online market. This could well mean the final blow for local brick and mortar shops if, as is predicted, the share of online shopping in total retail expenditure remains high after the pandemic.}
+      \field{issn}{0969-6989}
+      \field{journaltitle}{Journal of Retailing and Consumer Services}
+      \field{title}{COVID-19 and retail: The catalyst for e-commerce in Belgium?}
+      \field{volume}{62}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{102645}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jretconser.2021.102645
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969698921002113
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969698921002113
+      \endverb
+      \keyw{e-commerce,Retail,Covid-19,Christaller,Accessibility,Belgium}
+    \endentry
+    \entry{Bellens2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=046439c1f2b4497829eed1d90ba27c40}{%
+           family={Bellens},
+           familyi={B\bibinitperiod},
+           given={Els},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{fullhash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{bibnamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authorbibnamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authornamehash}{046439c1f2b4497829eed1d90ba27c40}
+      \strng{authorfullhash}{046439c1f2b4497829eed1d90ba27c40}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{journaltitle}{Ook Bing AI maakte fouten in demonstratie}
+      \field{month}{3}
+      \field{title}{Ook Bing AI maakte fouten in demonstratie}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://datanews.knack.be/nieuws/ook-bing-ai-maakte-fouten-in-demonstratie/
+      \endverb
+      \verb{url}
+      \verb https://datanews.knack.be/nieuws/ook-bing-ai-maakte-fouten-in-demonstratie/
+      \endverb
+    \endentry
+    \entry{Bottelbergs2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7bfc5b67039d1c4e2503e25e936a750}{%
+           family={Bottelbergs},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{fullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{bibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorbibnamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authornamehash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \strng{authorfullhash}{b7bfc5b67039d1c4e2503e25e936a750}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparative study on the security of open source web content management systems}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptieprijs.be/sites/default/files/A Comparative Study On The Security Of Open Source Web Content Management Systems.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptieprijs.be/sites/default/files/A%20Comparative%20Study%20On%20The%20Security%20Of%20Open%20Source%20Web%20Content%20Management%20Systems.pdf
+      \endverb
+    \endentry
+    \entry{Braun2019}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6a3d37f69e57d79cc397dc282464f563}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28f1b9616cc4b8c57300f9078838983b}{%
+           family={Scepankova},
+           familyi={S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ab921c8c293b7890059bde8d064192e}{%
+           family={Holl},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38a084c836fd0cc69afdd64930cf367c}{%
+           family={Matthes},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=3e72b4309439de3f8685c82c06787a60}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d347b4b7dff45e7f3798f6731c81ce39}{%
+           family={Geihs},
+           familyi={G\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=026bcaf26338cd485672c7b4e32c9ff7}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98d2cffeba0d82667e344897db264eab}{%
+           family={Stumme},
+           familyi={S\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Gesellschaft für Informatik e.V.}%
+      }
+      \strng{namehash}{1086667cb9899a1f9bf8dca77f0aa1f2}
+      \strng{fullhash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{bibnamehash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{authorbibnamehash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{authornamehash}{1086667cb9899a1f9bf8dca77f0aa1f2}
+      \strng{authorfullhash}{31e7ab346808ad4e01ce12726303a37f}
+      \strng{editorbibnamehash}{98ae205c837d9e244ef327f3224d8690}
+      \strng{editornamehash}{1780cd1fd503fb0bb14f5e4f2db6ea8d}
+      \strng{editorfullhash}{98ae205c837d9e244ef327f3224d8690}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{INFORMATIK 2019: 50 Jahre Gesellschaft für Informatik – Informatik für Gesellschaft}
+      \field{title}{Consumer Protection in the Digital Era: The Potential of Customer-Centered LegalTech}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{407\bibrangedash 420}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18420/inf2019_58
+      \endverb
+    \endentry
+    \entry{Bridle2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b136f7974a995909210006a49b0436f}{%
+           family={Bridle},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b136f7974a995909210006a49b0436f}
+      \strng{fullhash}{0b136f7974a995909210006a49b0436f}
+      \strng{bibnamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authorbibnamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authornamehash}{0b136f7974a995909210006a49b0436f}
+      \strng{authorfullhash}{0b136f7974a995909210006a49b0436f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{The stupidity of AI}
+      \field{month}{3}
+      \field{subtitle}{Artificial intelligence in its current form is based on the wholesale appropriation of existing culture, and the notion that it is actually intelligent could be actively dangerous}
+      \field{title}{The stupidity of AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/technology/2023/mar/16/the-stupidity-of-ai-artificial-intelligence-dall-e-chatgpt
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/technology/2023/mar/16/the-stupidity-of-ai-artificial-intelligence-dall-e-chatgpt
+      \endverb
+    \endentry
+    \entry{Browning2001}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e7aa42e0350bae2d1bc850ee116cf93f}{%
+           family={Browning},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49f3bf7625a7c467f615b2a825f29554}{%
+           family={Lowndes},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{fullhash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{bibnamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authorbibnamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authornamehash}{5b824300a9f33827365269d4bd0e3328}
+      \strng{authorfullhash}{5b824300a9f33827365269d4bd0e3328}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Techwatch report TSW}
+      \field{title}{JISC techwatch report: content management systems}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{01\bibrangedash 02}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.bestpracticeinstitute.org/images/cs_references/cs_209/Web Content Management.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bestpracticeinstitute.org/images/cs_references/cs_209/Web%20Content%20Management.pdf
+      \endverb
+    \endentry
+    \entry{Brownlee2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39d39f38e4cbf62c98c87365783adf18}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Marques},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{fullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{bibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorbibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authornamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorfullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{2}
+      \field{title}{The Biggest Problem with AI!}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=7emz4zZ226E
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=7emz4zZ226E
+      \endverb
+    \endentry
+    \entry{Brownlee2023a}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=39d39f38e4cbf62c98c87365783adf18}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Marques},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{fullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{bibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorbibnamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authornamehash}{39d39f38e4cbf62c98c87365783adf18}
+      \strng{authorfullhash}{39d39f38e4cbf62c98c87365783adf18}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{10}
+      \field{subtitle}{My actual thoughts on the "metaverse" and VR and AR right now.}
+      \field{title}{Who Cares About the Metaverse?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=CqkhjL3WvWQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=CqkhjL3WvWQ
+      \endverb
+    \endentry
+    \entry{Das2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=527887622370b5f14e036a6b50f440e0}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Mehul\bibnamedelima Reuben},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{fullhash}{527887622370b5f14e036a6b50f440e0}
+      \strng{bibnamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authorbibnamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authornamehash}{527887622370b5f14e036a6b50f440e0}
+      \strng{authorfullhash}{527887622370b5f14e036a6b50f440e0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{3}
+      \field{subtitle}{OpenAI's president Greg Brockman showcased the GPT-4's latest feature, its support for multimodality for instructions in the form of text, visual image or sound. For his demonstration, he just drew a website on a napkin and got GPT-4 to code one for him.}
+      \field{title}{Code Comfort: Man draws website idea on a napkin, shows GPT-4, AI bot codes it in seconds}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.firstpost.com/world/man-draws-website-idea-on-a-napkin-shows-gpt-4-ai-bot-codes-it-in-seconds-12296132.html
+      \endverb
+      \verb{url}
+      \verb https://www.firstpost.com/world/man-draws-website-idea-on-a-napkin-shows-gpt-4-ai-bot-codes-it-in-seconds-12296132.html
+      \endverb
+    \endentry
+    \entry{Dawes2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0ed6644344b0cee56f0a7999fc49a71}{%
+           family={Dawes},
+           familyi={D\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{fullhash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{bibnamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authorbibnamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authornamehash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \strng{authorfullhash}{d0ed6644344b0cee56f0a7999fc49a71}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{journaltitle}{Google's Bard}
+      \field{month}{3}
+      \field{title}{Google Releases Bard, the Generative AI Rival to ChatGPT}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://skift.com/blog/google-releases-bard-the-generative-ai-rival-to-chatgpt/
+      \endverb
+      \verb{url}
+      \verb https://skift.com/blog/google-releases-bard-the-generative-ai-rival-to-chatgpt/
+      \endverb
+    \endentry
+    \entry{DeBruijn2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ec15517384f7b0de53943892a5e4fdc}{%
+           family={De\bibnamedelima Bruijn},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           suffix={A.\bibnamedelimi ;\bibnamedelimb Van\bibnamedelima Dorth},
+           suffixi={A\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{institution}{2}{%
+        {Electrical Engineering, Mathematics}%
+        {Computer Science}%
+      }
+      \strng{namehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{fullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{bibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorbibnamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authornamehash}{4ec15517384f7b0de53943892a5e4fdc}
+      \strng{authorfullhash}{4ec15517384f7b0de53943892a5e4fdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{2}
+      \field{title}{BSc-project: Geautomatiseerde webstatistiekanalyse en website-prestatie-indicatie}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+      \verb{url}
+      \verb https://repository.tudelft.nl/islandora/object/uuid:e169e924-7ed8-40ca-ad59-f739513c5933?collection=education
+      \endverb
+    \endentry
+    \entry{Dent2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d64ddb22e3a431f9b5f3cda91425164}{%
+           family={Dent},
+           familyi={D\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{fullhash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{bibnamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authorbibnamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authornamehash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \strng{authorfullhash}{2d64ddb22e3a431f9b5f3cda91425164}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Microsoft begins making Bing Chat AI searches available to everyone}
+      \field{month}{3}
+      \field{subtitle}{Try it for yourself today.}
+      \field{title}{Microsoft begins making Bing Chat AI searches available to everyone}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.engadget.com/microsoft-begins-making-bing-chat-ai-searches-available-to-everyone-102506412.html
+      \endverb
+      \verb{url}
+      \verb https://www.engadget.com/microsoft-begins-making-bing-chat-ai-searches-available-to-everyone-102506412.html
+      \endverb
+    \endentry
+    \entry{DriesBlanchaert2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9abb2f27241b5ef79b22718242b48a}{%
+           family={Dries\bibnamedelima Blanchaert},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Veerle\bibnamedelimb Van\bibnamedelima Hauwenhuyse},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Master in de toegepaste informatica}%
+      }
+      \strng{namehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{fullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{bibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorbibnamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authornamehash}{db9abb2f27241b5ef79b22718242b48a}
+      \strng{authorfullhash}{db9abb2f27241b5ef79b22718242b48a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{8}
+      \field{title}{Migratie van een website naar een nieuw contentmanagementsysteem}
+      \field{type}{mathesis}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+      \verb{url}
+      \verb https://libstore.ugent.be/fulltxt/RUG01/001/418/450/RUG01-001418450_2010_0001_AC.pdf
+      \endverb
+    \endentry
+    \entry{Dumitrescu2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23b8bf506b27986582dfefc497c4e026}{%
+           family={Dumitrescu},
+           familyi={D\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{fullhash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{bibnamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authorbibnamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authornamehash}{23b8bf506b27986582dfefc497c4e026}
+      \strng{authorfullhash}{23b8bf506b27986582dfefc497c4e026}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{journaltitle}{Will ChatGPT Kill the Student Essay? Universities Aren’t Ready for the Answer}
+      \field{month}{3}
+      \field{subtitle}{AI is here to stay. It’s up to educators to articulate why writing still matters}
+      \field{title}{Will ChatGPT Kill the Student Essay? Universities Aren’t Ready for the Answer}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://thewalrus.ca/chatgpt-writing/
+      \endverb
+      \verb{url}
+      \verb https://thewalrus.ca/chatgpt-writing/
+      \endverb
+    \endentry
+    \entry{Grey2017}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a458a77da30ab1b1a36b0a9f0dfe9637}{%
+           family={Grey},
+           familyi={G\bibinitperiod},
+           given={CGP},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{fullhash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{bibnamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authorbibnamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authornamehash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \strng{authorfullhash}{a458a77da30ab1b1a36b0a9f0dfe9637}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{12}
+      \field{title}{How AIs, like ChatGPT, Learn}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=R9OHn5ZF4Uo
+      \endverb
+    \endentry
+    \entry{Hendrikman2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7911889460b4884f718fbcf79c85128}{%
+           family={Hendrikman},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{fullhash}{c7911889460b4884f718fbcf79c85128}
+      \strng{bibnamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authorbibnamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authornamehash}{c7911889460b4884f718fbcf79c85128}
+      \strng{authorfullhash}{c7911889460b4884f718fbcf79c85128}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Microsoft gaat generatieve AI verwerken in Microsoft 365-kantoortoepassingen}
+      \field{month}{3}
+      \field{subtitle}{Microsoft gaat door GPT4 aangedreven AI verwerken in zijn Microsoft 365-applicaties. De apps kunnen door de AI gegenereerde e-mails, documenten, presentaties, en meer produceren. Ook komt er een zakelijke tegenhanger van Bing Chat, genaamd Business Chat.}
+      \field{title}{Microsoft gaat generatieve AI verwerken in Microsoft 365-kantoortoepassingen}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://tweakers.net/nieuws/207738/microsoft-gaat-generatieve-ai-verwerken-in-microsoft-365-kantoortoepassingen.html
+      \endverb
+      \verb{url}
+      \verb https://tweakers.net/nieuws/207738/microsoft-gaat-generatieve-ai-verwerken-in-microsoft-365-kantoortoepassingen.html
+      \endverb
+    \endentry
+    \entry{Howley2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d88aea39124d0aa8544331e86801b019}{%
+           family={Howley},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{fullhash}{d88aea39124d0aa8544331e86801b019}
+      \strng{bibnamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authorbibnamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authornamehash}{d88aea39124d0aa8544331e86801b019}
+      \strng{authorfullhash}{d88aea39124d0aa8544331e86801b019}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{Meta is pushing the metaverse aside for AI}
+      \field{month}{3}
+      \field{title}{Meta is pushing the metaverse aside for AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://finance.yahoo.com/news/meta-is-pushing-the-metaverse-aside-for-ai-172133199.html
+      \endverb
+      \verb{url}
+      \verb https://finance.yahoo.com/news/meta-is-pushing-the-metaverse-aside-for-ai-172133199.html
+      \endverb
+    \endentry
+    \entry{Jose2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8151de3e77a1d577fc91139d258344a}{%
+           family={Jose},
+           familyi={J\bibinitperiod},
+           given={Bijin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{fullhash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{bibnamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authorbibnamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authornamehash}{a8151de3e77a1d577fc91139d258344a}
+      \strng{authorfullhash}{a8151de3e77a1d577fc91139d258344a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{5}
+      \field{subtitle}{The plugin allows the chatbot to effectively run several tasks. Developers have been experimenting with it since it was introduced.}
+      \field{title}{GPT-4 is old news: ChatGPT Code Interpreter plugin is redefining AI tech}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://indianexpress.com/article/technology/artificial-intelligence/gpt-4-is-old-news-chatgpt-code-interpreter-plugin-is-redefining-ai-8595157/#:~:text=The plugin allows the chatbot,it since it was introduced.&text=OpenAI's sensational AI-powered chatbot,its launch in November 2022.
+      \endverb
+      \verb{url}
+      \verb https://indianexpress.com/article/technology/artificial-intelligence/gpt-4-is-old-news-chatgpt-code-interpreter-plugin-is-redefining-ai-8595157/#:~:text=The%20plugin%20allows%20the%20chatbot,it%20since%20it%20was%20introduced.&text=OpenAI's%20sensational%20AI-powered%20chatbot,its%20launch%20in%20November%202022.
+      \endverb
+    \endentry
+    \entry{KnorrEvans2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2ead328afa6c3c3b22eb57b9e0c7595}{%
+           family={Knorr-Evans},
+           familyi={K\bibinithyphendelim E\bibinitperiod},
+           given={Maite},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{fullhash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{bibnamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authorbibnamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authornamehash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \strng{authorfullhash}{e2ead328afa6c3c3b22eb57b9e0c7595}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{journaltitle}{Is GPT-4 better than ChatGPT? What are the differences?}
+      \field{month}{3}
+      \field{subtitle}{Chat GPT-4 is here, and the opinions are mixed on the updates. We asked the updated chatbot some questions.}
+      \field{title}{Is GPT-4 better than ChatGPT? What are the differences?}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.as.com/latest_news/is-gpt-4-better-than-chatgpt-what-are-the-differences-n/
+      \endverb
+      \verb{url}
+      \verb https://en.as.com/latest_news/is-gpt-4-better-than-chatgpt-what-are-the-differences-n/
+      \endverb
+    \endentry
+    \entry{Laster2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7f7f5cb24de4cb0cf234a7a2a396b5f3}{%
+           family={Laster},
+           familyi={L\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{fullhash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{bibnamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authorbibnamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authornamehash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \strng{authorfullhash}{7f7f5cb24de4cb0cf234a7a2a396b5f3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{4}
+      \field{title}{A Short Recap of Our Q2-2023 Roadmap Event}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://elementor.com/blog/a-quick-look-at-q2-2023/
+      \endverb
+      \verb{url}
+      \verb https://elementor.com/blog/a-quick-look-at-q2-2023/
+      \endverb
+    \endentry
+    \entry{Leemputten2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef8cc08b611a7472760543508c975d67}{%
+           family={Leemputten},
+           familyi={L\bibinitperiod},
+           given={Pieterjan\bibnamedelima Van},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{fullhash}{ef8cc08b611a7472760543508c975d67}
+      \strng{bibnamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authorbibnamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authornamehash}{ef8cc08b611a7472760543508c975d67}
+      \strng{authorfullhash}{ef8cc08b611a7472760543508c975d67}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{5}
+      \field{title}{Populaire WordPress-plugin maakt 2 miljoen websites kwetsbaar}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://datanews.knack.be/nieuws/security/kwetsbaarheden/populaire-wordpress-plugin-maakt-2-miljoen-websites-kwetsbaar/
+      \endverb
+      \verb{url}
+      \verb https://datanews.knack.be/nieuws/security/kwetsbaarheden/populaire-wordpress-plugin-maakt-2-miljoen-websites-kwetsbaar/
+      \endverb
+    \endentry
+    \entry{Leong2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=306010caa838d6597aeeaff394e45a5f}{%
+           family={Leong},
+           familyi={L\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{fullhash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{bibnamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authorbibnamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authornamehash}{306010caa838d6597aeeaff394e45a5f}
+      \strng{authorfullhash}{306010caa838d6597aeeaff394e45a5f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{Here’s why ChatGPT might be ‘at capacity’ for you still}
+      \field{month}{2}
+      \field{title}{Here’s why ChatGPT might be ‘at capacity’ for you still}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.digitaltrends.com/computing/chatgpt-is-at-capacity-and-is-frustrating-new-people-everywhere/
+      \endverb
+      \verb{url}
+      \verb https://www.digitaltrends.com/computing/chatgpt-is-at-capacity-and-is-frustrating-new-people-everywhere/
+      \endverb
+    \endentry
+    \entry{MartinezCaro2018}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ff49d3e05d887f8fb9891f172d991c85}{%
+           family={Martinez-Caro},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Jose-Manuel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e72dd3395b5b71c225af180308319ab}{%
+           family={Aledo-Hernandez},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Antonio-Jose},
+           giveni={A\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7daf25894a5bd473f8abb152e7d476c6}{%
+           family={Guillen-Perez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f16c0ae3c200cc8f686ccc1a27f2f19}{%
+           family={Sanchez-Iborra},
+           familyi={S\bibinithyphendelim I\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=597fcb7683b269b9c9669bbebcb68e6f}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Maria-Dolores},
+           giveni={M\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{d2157c97a98cb763e87753e0c3271321}
+      \strng{fullhash}{4c8c06d48833133070038c03c33e83de}
+      \strng{bibnamehash}{4c8c06d48833133070038c03c33e83de}
+      \strng{authorbibnamehash}{4c8c06d48833133070038c03c33e83de}
+      \strng{authornamehash}{d2157c97a98cb763e87753e0c3271321}
+      \strng{authorfullhash}{4c8c06d48833133070038c03c33e83de}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information}
+      \field{number}{2}
+      \field{title}{A comparative study of web content management systems}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{27}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/257970
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/257970
+      \endverb
+    \endentry
+    \entry{MatthiasF.Treutner2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22fe31d704f9208fdb89da12d2a7e22e}{%
+           family={Matthias\bibnamedelimb F.\bibnamedelimi Treutner},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Herwig\bibnamedelima Ostermann},
+           giveni={H\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {University of Health Sciences, Medical Informatics}%
+        {Technology}%
+      }
+      \strng{namehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{fullhash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{bibnamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authorbibnamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authornamehash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \strng{authorfullhash}{22fe31d704f9208fdb89da12d2a7e22e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{8}
+      \field{title}{Evolution of Standard Web Shop Software Systems: A Review and Analysis of Literature and Market Surveys}
+      \field{type}{phdthesis}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=00e033169f02f2497f8979e64adf1a0a69325e4d
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=00e033169f02f2497f8979e64adf1a0a69325e4d
+      \endverb
+    \endentry
+    \entry{MelissaHeikkilaea2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dff74653be03662221c7321a105bd4fb}{%
+           family={Melissa\bibnamedelima Heikkiläa},
+           familyi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Will\bibnamedelimb Douglas\bibnamedelima Heaven},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{fullhash}{dff74653be03662221c7321a105bd4fb}
+      \strng{bibnamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authorbibnamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authornamehash}{dff74653be03662221c7321a105bd4fb}
+      \strng{authorfullhash}{dff74653be03662221c7321a105bd4fb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{What’s next for AI}
+      \field{month}{12}
+      \field{subtitle}{Get a head start with our four big bets for 2023.}
+      \field{title}{What’s next for AI}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.technologyreview.com/2022/12/23/1065852/whats-next-for-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.technologyreview.com/2022/12/23/1065852/whats-next-for-ai/
+      \endverb
+    \endentry
+    \entry{Paris2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b829f1080cb4e0a0637e894d87b7e05}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={Martine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{fullhash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{bibnamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authorbibnamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authornamehash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \strng{authorfullhash}{3b829f1080cb4e0a0637e894d87b7e05}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{4}
+      \field{title}{Google At Risk Of Losing Samsung And Apple Phone Deal To Microsoft AI}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.forbes.com/sites/martineparis/2023/04/17/google-160-ai-staffers-shocked-that-samsung-apple-phone-exclusive-at-risk/?sh=3477f0db1553
+      \endverb
+      \verb{url}
+      \verb https://www.forbes.com/sites/martineparis/2023/04/17/google-160-ai-staffers-shocked-that-samsung-apple-phone-exclusive-at-risk/?sh=3477f0db1553
+      \endverb
+    \endentry
+    \entry{Patel2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b47262158b27055e25a82ad1a51e491d}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Savan\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e970b762163651311421df52929f59}{%
+           family={Rathod},
+           familyi={R\bibinitperiod},
+           given={VR},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e68acfe405160cdc02d45c802383b41}{%
+           family={Prajapati},
+           familyi={P\bibinitperiod},
+           given={Jigna\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{7b3be326f4d105ae1485de05d8d487b8}
+      \strng{fullhash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{bibnamehash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{authorbibnamehash}{21c399e74753bb348de6b2546594ea4d}
+      \strng{authornamehash}{7b3be326f4d105ae1485de05d8d487b8}
+      \strng{authorfullhash}{21c399e74753bb348de6b2546594ea4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{number}{4}
+      \field{title}{Performance analysis of content management systems-joomla, drupal and wordpress}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{39\bibrangedash 43}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=174a32cc9685783321238150dd53ffe98ebfc009
+      \endverb
+      \verb{url}
+      \verb https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=174a32cc9685783321238150dd53ffe98ebfc009
+      \endverb
+    \endentry
+    \entry{Roggeveen2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=74fe63fe29dc619e88a77ce7f7a3d73a}{%
+           family={Roggeveen},
+           familyi={R\bibinitperiod},
+           given={Anne\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16ffd8bd4438d1edd49298649bc44825}{%
+           family={Sethuraman},
+           familyi={S\bibinitperiod},
+           given={Raj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{fullhash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{bibnamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authorbibnamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authornamehash}{71fccf35b9c445259388ac5ffced6c3e}
+      \strng{authorfullhash}{71fccf35b9c445259388ac5ffced6c3e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4359}
+      \field{journaltitle}{Journal of Retailing}
+      \field{number}{2}
+      \field{title}{How the COVID-19 Pandemic May Change the World of Retailing}
+      \field{volume}{96}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{169\bibrangedash 171}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jretai.2020.04.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022435920300208
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022435920300208
+      \endverb
+    \endentry
+    \entry{Tips2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c41da8f993f7cff3a5ad3238a6086195}{%
+           family={Tips},
+           familyi={T\bibinitperiod},
+           given={Linus\bibnamedelima Tech},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{fullhash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{bibnamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authorbibnamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authornamehash}{c41da8f993f7cff3a5ad3238a6086195}
+      \strng{authorfullhash}{c41da8f993f7cff3a5ad3238a6086195}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{12}
+      \field{title}{I Have to Do Everything this AI Says - ChatGPT Builds a PC}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=kuTTAuUorsI
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=kuTTAuUorsI
+      \endverb
+    \endentry
+    \entry{LatumenRonaldDekker2004}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51432f39a29d0098e8e34eaa93d3baf8}{%
+           family={Latum\bibnamedelimb en\bibnamedelimb Ronald\bibnamedelima Dekker},
+           familyi={L\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Frits},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{fullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{bibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorbibnamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authornamehash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \strng{authorfullhash}{51432f39a29d0098e8e34eaa93d3baf8}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Content management: sleutelrol in digitale bibliotheek}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+      \verb{url}
+      \verb https://dspace.library.uu.nl/handle/1874/3123
+      \endverb
+    \endentry
+    \entry{WillKnight2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32979d327b0fa9153e3d6162c81a472b}{%
+           family={Will\bibnamedelima Knight},
+           familyi={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Khari\bibnamedelima Johnson},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{fullhash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{bibnamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authorbibnamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authornamehash}{32979d327b0fa9153e3d6162c81a472b}
+      \strng{authorfullhash}{32979d327b0fa9153e3d6162c81a472b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{journaltitle}{Now That ChatGPT Is Plugged In, Things Could Get Weird}
+      \field{month}{3}
+      \field{subtitle}{Letting the chatbot interact with the live internet will make it more useful—and more problematic, too.}
+      \field{title}{Now That ChatGPT Is Plugged In, Things Could Get Weird}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wired.com/story/chatgpt-plugins-openai/
+      \endverb
+      \verb{url}
+      \verb https://www.wired.com/story/chatgpt-plugins-openai/
+      \endverb
+    \endentry
+    \entry{ZoeKleinman2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae23b74f3ae05c9bbd3a1a352edd965c}{%
+           family={Zoe\bibnamedelima Kleinman},
+           familyi={Z\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Chris\bibnamedelima Vallance},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{fullhash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{bibnamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authorbibnamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authornamehash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \strng{authorfullhash}{ae23b74f3ae05c9bbd3a1a352edd965c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{5}
+      \field{title}{AI 'godfather' Geoffrey Hinton warns of dangers as he quits Google}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.com/news/world-us-canada-65452940
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/news/world-us-canada-65452940
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

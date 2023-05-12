@@ -1,0 +1,47 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Stappenplan}{Roadmap}}%
+\label{ch:stappenplan}
+
+\section{Inleiding}
+Dit stappenplan is specifiek voor de co-promotor opgesteld, om het proces van een webshop overname zo snel en efficiënt mogelijk aan te pakken. Belangrijk is om in het achterhoofd te houden dat dit voor één algemeen scenario beschreven is. Afhankelijk van de opdracht voor een klant kunnen bepaalde stappen overgeslagen worden. Dit stappenplan houdt geen rekening met de hosting van de webshop. Een uitgebreidere beschrijving van de verschillende stappen kan in het hoofdstuk 'methodologie' worden teruggevonden.  
+
+\section{Algemeen scenario}
+Het volledig opzetten van een webshop kan als volgt:
+\subsection{Configuratiebestand}
+Pas het configuratie-bestand aan met de noodzakelijke gegevens van de klant.
+\subsection{Bepalen van plugins}
+Afhankelijk van de opdracht zal je andere plugins nodig hebben.
+\begin{itemize}
+    \item Kies welke je gaat gebruiken. 
+    \item Bepaal de versie die je zal gebruiken en of automatische updates mogen aanstaan of niet.
+    \item Controleer of alle plugins compatibel zullen zijn met elkaar. Dit kan ironisch genoeg ook met een plugin zoals \href{https://wordpress.org/plugins/plugin-compatibility-checker/}{Plugin Compatibility Checker}.
+    \item Maak script(s) klaar voor de plugins te downloaden en te installeren.
+\end{itemize}
+\subsection{Bepalen van thema}
+Kies welk thema je gaat gebruiken en hoe je het gaat integreren (via scripting, manueel of combinatie van beide). De opties zijn:
+\begin{itemize}
+    \item Zelf een custom theme genereren via scripting
+    \item Een extern thema manueel downloaden en achteraf uploaden
+\end{itemize}
+Vergeet niet om het configuratiebstand uit te breiden indien voor een custom theme wordt gekozen.
+\subsection{Opbouw WordPress}
+Pas het configuratie-bestand aan met de noodzakelijke gegevens van de klant. Voer vervolgens bijhorende PowerShell-script(s) uit om een lokale WordPress te hebben met een custom theme en de opgegeven plugins. 
+\subsection{Controleer installatie}
+Kijk of alles correct geïnstalleerd is en werkt:
+\begin{itemize}
+    \item Is het gekozen thema goed opgesteld en actief?
+    \item Kan de admin zich inloggen?
+    \item Zijn alle plugins compatibel met elkaar? 
+\end{itemize}
+\subsection{Voorzie styling}
+Indien er gekozen is voor een extern thema is dit punt bijna afgerond. Pas indien nodig nog de kleuren en andere elementen aan. 
+\subsection{Vul op met data}
+\begin{itemize}
+    \item Haal de data op (bv. via AgentGPT of Beautiful Soup)
+    \item Exporteer de data naar een .csv-file
+    \item Importeer de .csv-file in de WooCommerce-plugin en doorloop het proces
+\end{itemize}
+Nadat al deze stappen zijn doornomen, en alles operationeel is, kan de webshop worden gehost. Vervolgens wanneer de webshop live staat kunnen manueel de overige plugins worden geïnstalleerd voor o.a. de beveiliging van WordPress te optimaliseren (bv. Wordfence).

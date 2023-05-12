@@ -1,0 +1,43 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZsh{} Laden van configuratiebestand}
+\PYG{n+nv}{\PYGZdl{}config} \PYG{p}{=} \PYG{n+nb}{Get\PYGZhy{}Content} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}config.ps1\PYGZdq{}} \PYG{p}{|} \PYG{n+nb}{ConvertFrom\PYGZhy{}StringData}
+
+\PYG{c}{\PYGZsh{} Downloaden en uitpakken van WordPress}
+\PYG{n+nb}{Invoke\PYGZhy{}WebRequest} \PYG{n}{\PYGZhy{}Uri} \PYG{l+s+s2}{\PYGZdq{}https://wordpress.org/latest.tar.gz\PYGZdq{}} \PYG{n}{\PYGZhy{}OutFile} \PYG{l+s+s2}{\PYGZdq{}latest.tar.gz\PYGZdq{}}
+\PYG{n+nb}{Expand\PYGZhy{}Archive} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}latest.tar.gz\PYGZdq{}} \PYG{n}{\PYGZhy{}DestinationPath} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}
+
+\PYG{c}{\PYGZsh{} Kopiëren van WordPress\PYGZhy{}bestanden naar de gewenste locatie}
+\PYG{n+nb}{Copy\PYGZhy{}Item} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}wordpress\PYGZbs{}*\PYGZdq{}} \PYG{n}{\PYGZhy{}Destination} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath} \PYG{n}{\PYGZhy{}Recurse}
+
+\PYG{c}{\PYGZsh{} Configuratiebestand aanmaken}
+\PYG{n+nb}{Copy\PYGZhy{}Item} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config\PYGZhy{}sample.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Destination} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}}
+
+\PYG{c}{\PYGZsh{} Invullen van databasegegevens in het configuratiebestand}
+\PYG{p}{(}\PYG{n+nb}{Get\PYGZhy{}Content} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}}\PYG{p}{)} \PYG{p}{|}
+\PYG{k}{ForEach}\PYG{n}{\PYGZhy{}Object} \PYG{p}{\PYGZob{}}
+    \PYG{n+nv}{\PYGZdl{}\PYGZus{}} \PYG{o}{\PYGZhy{}replace} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}HOST\PYGZsq{}, \PYGZsq{}localhost\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}HOST\PYGZsq{}, \PYGZsq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{dbHost}\PYG{p}{)}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}} \PYG{p}{`}
+    \PYG{o}{\PYGZhy{}replace} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}PORT\PYGZsq{}, \PYGZsq{}3306\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}PORT\PYGZsq{}, \PYGZsq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{dbPort}\PYG{p}{)}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}} \PYG{p}{`}
+    \PYG{o}{\PYGZhy{}replace} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}USER\PYGZsq{}, \PYGZsq{}db\PYGZus{}username\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}USER\PYGZsq{}, \PYGZsq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{dbUser}\PYG{p}{)}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}} \PYG{p}{`}
+    \PYG{o}{\PYGZhy{}replace} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}PASSWORD\PYGZsq{}, \PYGZsq{}db\PYGZus{}password\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}PASSWORD\PYGZsq{}, \PYGZsq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{dbPassword}\PYG{p}{)}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}} \PYG{p}{`}
+    \PYG{o}{\PYGZhy{}replace} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}NAME\PYGZsq{}, \PYGZsq{}db\PYGZus{}name\PYGZsq{}\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZsq{}DB\PYGZus{}NAME\PYGZsq{}, \PYGZsq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{dbName}\PYG{p}{)}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}} \PYG{p}{`}
+\PYG{p}{\PYGZcb{}} \PYG{p}{|} \PYG{n+nb}{Set\PYGZhy{}Content} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}}
+
+\PYG{c}{\PYGZsh{} Aanpassen van bestandseigenaar en \PYGZhy{}groep (optioneel)}
+\PYG{k}{if} \PYG{p}{(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{chownEnabled}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n+nv}{\PYGZdl{}acl} \PYG{p}{=} \PYG{n+nb}{Get\PYGZhy{}Acl} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}
+    \PYG{n+nv}{\PYGZdl{}acl}\PYG{p}{.}\PYG{n}{SetOwner}\PYG{p}{(}\PYG{n+no}{[System.Security.Principal.NTAccount]}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}IIS APPPOOL\PYGZbs{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{appPoolUser}\PYG{p}{)}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{))}
+    \PYG{n+nb}{Set\PYGZhy{}Acl} \PYG{n}{\PYGZhy{}Path} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath} \PYG{n}{\PYGZhy{}AclObject} \PYG{n+nv}{\PYGZdl{}acl}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c}{\PYGZsh{} Bijwerken van WordPress\PYGZhy{}site instellingen}
+\PYG{n+nb}{Set\PYGZhy{}ItemProperty} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Name} \PYG{l+s+s2}{\PYGZdq{}siteurl\PYGZdq{}} \PYG{n}{\PYGZhy{}Value} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{siteUrl}
+\PYG{n+nb}{Set\PYGZhy{}ItemProperty} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Name} \PYG{l+s+s2}{\PYGZdq{}blogname\PYGZdq{}} \PYG{n}{\PYGZhy{}Value} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{siteTitle}
+\PYG{n+nb}{Set\PYGZhy{}ItemProperty} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Name} \PYG{l+s+s2}{\PYGZdq{}blogdescription\PYGZdq{}} \PYG{n}{\PYGZhy{}Value} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{siteDescription}
+\PYG{n+nb}{Set\PYGZhy{}ItemProperty} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Name} \PYG{l+s+s2}{\PYGZdq{}timezone\PYGZus{}string\PYGZdq{}} \PYG{n}{\PYGZhy{}Value} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{siteTimezone}
+\PYG{n+nb}{Set\PYGZhy{}ItemProperty} \PYG{n}{\PYGZhy{}Path} \PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{\PYGZdl{}(}\PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{wordpressPath}\PYG{p}{)}\PYG{l+s+s2}{\PYGZbs{}wp\PYGZhy{}config.php\PYGZdq{}} \PYG{n}{\PYGZhy{}Name} \PYG{l+s+s2}{\PYGZdq{}WPLANG\PYGZdq{}} \PYG{n}{\PYGZhy{}Value} \PYG{n+nv}{\PYGZdl{}config}\PYG{p}{.}\PYG{n}{siteLanguage}
+
+\PYG{c}{\PYGZsh{} Verwijderen van WordPress\PYGZhy{}archief}
+\PYG{n+nb}{Remove\PYGZhy{}Item} \PYG{l+s+s2}{\PYGZdq{}latest.tar.gz\PYGZdq{}}
+
+\PYG{n+nb}{Write\PYGZhy{}Host} \PYG{l+s+s2}{\PYGZdq{}WordPress is geïnstalleerd, databasegegevens zijn automatisch ingevuld en een standaard gebruikersaccount is aangemaakt.\PYGZdq{}}
+\end{Verbatim}

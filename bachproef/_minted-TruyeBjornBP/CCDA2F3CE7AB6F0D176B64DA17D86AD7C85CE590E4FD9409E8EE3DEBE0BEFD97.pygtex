@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Import the configuration file}
+\PYG{n+nv}{\PYGZdl{}configFilePath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}C:\PYGZbs{}path\PYGZbs{}to\PYGZbs{}config.ps1\PYGZdq{}}
+\PYG{n+nv}{\PYGZdl{}config}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }Get\PYGZhy{}Content\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}configFilePath}\PYG{+w}{ }\PYGZhy{}Raw\PYG{+w}{ }\PYG{p}{|}\PYG{+w}{ }Invoke\PYGZhy{}Expression
+
+\PYG{c+c1}{\PYGZsh{} Retrieve the value of the wordpressPath variable from the configuration}
+\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}config}.wordpressPath
+
+\PYG{n+nv}{\PYGZdl{}pluginsPath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }Join\PYGZhy{}Path\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{+w}{ }\PYGZhy{}ChildPath\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}wp\PYGZhy{}content\PYGZbs{}plugins\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} WooCommerce plugin download URL}
+\PYG{n+nv}{\PYGZdl{}woocommerceUrl}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}https://downloads.wordpress.org/plugin/woocommerce.latest\PYGZhy{}stable.zip\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} WooCommerce plugin name and file name}
+\PYG{n+nv}{\PYGZdl{}woocommerceName}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}woocommerce\PYGZdq{}}\PYG{+w}{  }\PYG{c+c1}{\PYGZsh{} Name of the WooCommerce plugin}
+\PYG{n+nv}{\PYGZdl{}woocommerceFileName}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceName}\PYG{l+s+s2}{.zip\PYGZdq{}}\PYG{+w}{  }\PYG{c+c1}{\PYGZsh{} Name of the downloaded ZIP file}
+
+\PYG{c+c1}{\PYGZsh{} Download WooCommerce plugin}
+\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }Join\PYGZhy{}Path\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}PSScriptRoot}\PYG{+w}{ }\PYGZhy{}ChildPath\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}woocommerceFileName}
+Invoke\PYGZhy{}WebRequest\PYG{+w}{ }\PYGZhy{}Uri\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}woocommerceUrl}\PYG{+w}{ }\PYGZhy{}OutFile\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}
+
+\PYG{c+c1}{\PYGZsh{} Extract WooCommerce plugin}
+Expand\PYGZhy{}Archive\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}\PYG{+w}{ }\PYGZhy{}DestinationPath\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}pluginsPath}\PYG{+w}{ }\PYGZhy{}Force
+
+\PYG{c+c1}{\PYGZsh{} WordPress Plugin API activation}
+\PYG{n+nv}{\PYGZdl{}apiPath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }Join\PYGZhy{}Path\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{+w}{ }\PYGZhy{}ChildPath\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}wp\PYGZhy{}load.php\PYGZdq{}}
+Import\PYGZhy{}Module\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}apiPath}
+
+\PYG{c+c1}{\PYGZsh{} Activate WooCommerce plugin using Plugin API}
+\PYG{n+nv}{\PYGZdl{}pluginPath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }Join\PYGZhy{}Path\PYG{+w}{ }\PYGZhy{}Path\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}pluginsPath}\PYG{+w}{ }\PYGZhy{}ChildPath\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}woocommerceName}
+activate\PYGZus{}plugin\PYG{o}{(}\PYG{n+nv}{\PYGZdl{}pluginPath}\PYG{o}{)}
+
+\PYG{c+c1}{\PYGZsh{} Output success message}
+Write\PYGZhy{}Host\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}WooCommerce plugin is gedownload, geïnstalleerd en geactiveerd.\PYGZdq{}}
+\end{Verbatim}

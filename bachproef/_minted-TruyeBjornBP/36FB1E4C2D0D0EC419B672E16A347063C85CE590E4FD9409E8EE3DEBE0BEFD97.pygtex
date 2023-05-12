@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nv}{\PYGZdl{}command}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZam{} `\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{l+s+se}{\PYGZbs{}w}p\PYGZhy{}cli.phar\PYG{l+s+sb}{`}\PYG{l+s+s2}{\PYGZdq{} \PYGZhy{}\PYGZhy{}path=`\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{l+s+sb}{`}\PYG{l+s+s2}{\PYGZdq{} eval \PYGZsq{}add\PYGZus{}filter( \PYGZdq{}\PYGZdq{}auto\PYGZus{}update\PYGZus{}plugin\PYGZdq{}\PYGZdq{}, \PYGZdq{}\PYGZdq{}\PYGZus{}\PYGZus{}return\PYGZus{}true\PYGZdq{}\PYGZdq{} );\PYGZsq{}\PYGZdq{}}
+Invoke\PYGZhy{}Expression\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}command}
+\end{Verbatim}
