@@ -1,6 +1,7 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{c+ch}{\PYGZsh{}!/bin/bash}
 \PYG{c+c1}{\PYGZsh{} Configuratiebestand voor WordPress\PYGZhy{}installatie}
+\PYG{c+c1}{\PYGZsh{} Naam = klantgegevens\PYGZus{}coureur\PYGZus{}local.sh}
 
 \PYG{c+c1}{\PYGZsh{} Database\PYGZhy{}instellingen}
 \PYG{n+nv}{dbHost}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}localhost\PYGZdq{}}
@@ -21,11 +22,11 @@
 \PYG{n+nv}{defaultPassword}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}admin\PYGZus{}wachtwoord\PYGZdq{}}
 
 \PYG{c+c1}{\PYGZsh{} WordPress\PYGZhy{}map pad}
-\PYG{n+nv}{wordpressPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}HOME}\PYG{l+s+s2}{/Desktop/webshops/coureur\PYGZus{}local/\PYGZdq{}}
+\PYG{n+nv}{wordpressPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}C:/Users/Bjorn/Desktop/local\PYGZus{}repos/hogent/bachelorproef/coureur\PYGZus{}local/wordpress\PYGZdq{}}
 
 \PYG{c+c1}{\PYGZsh{} Thema instellingen}
 \PYG{n+nv}{author}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Team Made\PYGZdq{}}
-\PYG{n+nv}{themesPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}HOME}\PYG{l+s+s2}{/Desktop/webshops/coureur\PYGZus{}local/wp\PYGZhy{}content/themes\PYGZdq{}}
+\PYG{n+nv}{themesPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}C:/Users/Bjorn/Desktop/local\PYGZus{}repos/hogent/bachelorproef/coureur\PYGZus{}local/wordpress/wp\PYGZhy{}content/themes\PYGZdq{}}
 \PYG{n+nv}{themeName}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Thema Coureur Local\PYGZdq{}}
 \PYG{n+nv}{themeDescription}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Thema speciaal voor Coureur Local gemaakt.\PYGZdq{}}
 

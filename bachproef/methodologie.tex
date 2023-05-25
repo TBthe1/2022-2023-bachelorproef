@@ -110,7 +110,7 @@ De mogelijke scenario's die kunnen optreden bij het overnemen van een webshop zi
 \end{itemize} 
 
 \section{Installatie van WordPress}
-Het installeren van een WordPress instantie verloopt in een aantal stappen die geautomatiseerd kunnen worden. In volgende hoofdstukken worden deze besproken voor de webshop Coureur Local. Aangezien de co-promotor met Windows werkt zullen alle scripts en terminal commands geschreven zijn in Powershell.
+Het installeren van een WordPress instantie verloopt in een aantal stappen die geautomatiseerd kunnen worden. In volgende hoofdstukken worden deze besproken voor de webshop Coureur Local. Aangezien de co-promotor met Windows werkt zullen alle scripts en terminal commands geschreven zijn in PowerShell.
 
 \subsection{Folderstructuur}
 In een WordPress installatie zijn verschillende folders aanwezig die elk hun eigen functionaliteit hebben. De belangrijkste hiervan zijn:
@@ -132,13 +132,13 @@ Bij het opstellen van een nieuwe webshop zal deze folder de meeste aanpassen kri
 Command-line tools of scripts kunnen de downloadlink van WordPress ophalen, het zipbestand downloaden en automatisch uitpakken naar de juiste locatie. WordPress werkt op een MySQL-databank, de aanmaak hiervan kan ook worden geautomatiseerd met behulp van scripts. Tenslotte kunnen een aantal webshop-gegevens reeds voorzien worden zoals de website titel, beschrijving, tijdzone en taal. Een standaard gebruiker instellen kan via deze weg ook. Merk op dat er nog meer instellingen kunnen aangevuld worden zoals de adminEmail, permalinkStructure, uploadsPath, defaultCategory enzovoort.
 
 \subsection{Custom theme}
-WordPress werkt met thema's om de lay-out en design van een website te bewaren. Standaard installeert en activeert WordPRess een thema van hen. Een custom theme is een thema dat je volledig zelf in beheer hebt. Dit geeft het voordeel van een volledig uniek design te implementeren, maar vergt bijgevolg wel meer kennis. Er zijn verschillende opties voor de co-promotor:
+WordPress werkt met thema's om de lay-out en design van een website te bewaren. Standaard installeert en activeert WordPress een thema van hen. Een custom theme is een thema dat je volledig zelf in beheer hebt. Dit geeft het voordeel van een volledig uniek design te implementeren, maar vergt bijgevolg wel meer kennis. Er zijn verschillende opties voor de co-promotor:
 \begin{itemize}
     \item WordPress thema - blijf met het standaard thema werken
     \item eigen custom theme - maak zelf een custom theme (per project) aan
     \item download een custom theme - haal een (betalende) custom theme van het internet af en bewerk die
 \end{itemize}
-Voor veiligheidsredenen is het aangeraden om altijd een standaard WordPress thema gedownload te hebben. Mocht er een fout optreden met een custom theme dan kan WordPress daarop terugvallen. Het zal mogelijks voor een andere lay-out zorgen, maar de website zal geen foutmelding geven of zelfs niet beschikbaar zijn. 
+Voor veiligheidsredenen is het aangeraden om altijd een standaard WordPress thema gedownload te hebben. Mocht er een fout optreden met een custom theme dan kan WordPress daarop terugvallen. Het zal mogelijks voor een andere lay-out zorgen, maar de website zal geen foutmelding geven en niet onbeschikbaar/offline zijn. 
 
 \subsection{WP-CLI}
 Om de veiligheid en toekomstige compatibiliteit van het script te verbeteren kan men best werken met de WP-CLI (WordPress Command Line Interface) tool. Het is veiliger omdat het gebruik maakt van de ingebouwde WordPress-beveiliging om ervoor te zorgen dat de ingevoerde gegevens worden gevalideerd. Dit helpt potentiële beveiligingsproblemen zoals SQL-injecties te voorkomen. Doordat het gebruik maakt van de officiële WordPress-cli-functionaliteit is het minder waarschijnlijk dat het wordt beïnvloed door toekomstige updates of wijzigingen in de WordPress-codebase, en het langer zal blijven werken met toekomstige versies van WordPress.
@@ -155,10 +155,17 @@ wp --info
 \end{minted}
 
 \subsection{Voorbeeldscript configuratiebestand}
-Wachtwoorden en andere gevoelige gegevens worden best veilig opgeslagen in een aparte configuratiebestand en worden best niet zomaar weergegeven in een script. Het grote voordeel aan deze werkwijze is dat alle noodzakelijke gegevens voor de installatie op één centrale plaats komen te staan. Op de \href{https://wordpress.org/documentation/article/settings-general-screen/}{WordPress website} kunnen alle mogelijke settings om aan te passen worden teruggevonden. Een voorbeeld van zo een configuratiebestand in PowerShell:
-\begin{minted}{bash}
+Wachtwoorden en andere gevoelige gegevens worden best veilig opgeslagen in een aparte configuratiebestand en worden best niet zomaar weergegeven in een script. Het grote voordeel aan deze werkwijze is dat alle noodzakelijke gegevens voor de installatie op één centrale plaats komen te staan. Op de \href{https://wordpress.org/documentation/article/settings-general-screen/}{WordPress website} kunnen alle mogelijke settings om aan te passen worden teruggevonden.
+\\\\
+Je kan op een Windows-besturingssysteem een script toevoegen door een tekstbestand toe te voegen, de lijnen code in te vullen en vervolgens de bestandsextensie te veranderen van .txt naar .sh. Om Shell-scripts te gebruiken op Windows heb je een Linux shell nodig en een command-language Bash. Je kan op Windows werken met deze scripts zonder Ubuntu te downloaden m.b.v. WSL (Windows Subsystem for Linux). Hiervoor ga je naar 'settings > update \& security > for developers >' en zet de knop 'Developer mode' aan. Vervolgens zoek je naar 'Turn Windows features on or off' en vink je de WSL map aan. Na de installatie kan een herstart van de computer noodzakelijk zijn. 
+\\\\
+Voor deze proof-of-concept zalt met WLS worden gewerkt. Open in de map waar het script in staat Linux shell en typ je volgend commando: 'bash naamVanScript.sh'. Indien je een foutmelding krijgt zoals '... command not found' dan moet je een EOL conversie uitvoeren naar Unix. Dit kan in het programma Notepad++ door het script te openen en vervolgens op Edit > EOL conversion > Unix (LF) te klikken. Om visueel de status van de WordPress download te tonen gebruiken we Pipe Viewer. Dit kan men installeren op Windows 10 met het commando: sudo apt-get install pv.
+\\\\
+Een uitgewerkt voorbeeld van zo een configuratiebestand in PowerShell voor de klant Coureur Local ziet er als volgt uit:
+\begin{minted}[breakanywhere=true]{bash}
 #!/bin/bash
 # Configuratiebestand voor WordPress-installatie
+# Naam = klantgegevens_coureur_local.sh
 
 # Database-instellingen
 dbHost="localhost"
@@ -179,11 +186,11 @@ defaultUsername="Admin"
 defaultPassword="admin_wachtwoord"
 
 # WordPress-map pad
-wordpressPath="$HOME/Desktop/webshops/coureur_local/"
+wordpressPath="C:/Users/Bjorn/Desktop/local_repos/hogent/bachelorproef/coureur_local/wordpress"
 
 # Thema instellingen
 author="Team Made"
-themesPath="$HOME/Desktop/webshops/coureur_local/wp-content/themes"
+themesPath="C:/Users/Bjorn/Desktop/local_repos/hogent/bachelorproef/coureur_local/wordpress/wp-content/themes"
 themeName="Thema Coureur Local"
 themeDescription="Thema speciaal voor Coureur Local gemaakt."
 
@@ -207,51 +214,70 @@ export themeName
 export themeDescription
 \end{minted}
 
+\subsection{Voorbeeldscript download WordPress}
+Een voorbeeld van een script in Linux shell voor WordPress automatisch te installeren en de progressie te tonen:
+\begin{minted}{bash}
+#!/bin/bash
+# Naam script = opzet_wp.sh
+
+# Ophalen van configuratiebestand klantgegevens_coureur_local.sh
+source klantgegevens_coureur_local.sh
+
+# Downloaden en uitpakken van WordPress met Pipe Viewer
+curl -# -L "https://wordpress.org/latest.tar.gz" | pv -p -t -e -b -a | tar -xzf - >/dev/null
+
+echo "WordPress is geïnstalleerd."
+\end{minted}
+Dit zal een volledig nieuwe WordPress-folder aanmaken met een standaard wp-config-sample.php in. Vervolgens gaan wij een eigen wp-config.php laten genereren met de juiste databankgegevens (die opgesteld zijn in 'klantgegevens\_coureur\_local.sh') met een nieuw script.
 
 \subsection{Voorbeeldscript algemene opzet}
-Een voorbeeld van een script in PowerShell voor WordPress automatisch te installeren, de databasegegevens in te vullen en een standaard gebruikersaccount aan te maken:
-\begin{minted}{powershell}
-# Laden van configuratiebestand
-$config = Get-Content -Path "config.ps1" | ConvertFrom-StringData
+Een voorbeeld van een script in Linux shell voor de databasegegevens in te vullen en een standaard gebruikersaccount aan te maken (die ook reeds opgesteld zijn in 'klantgegevens\_coureur\_local.sh'):
+\begin{minted}{bash}
+#!/bin/bash
+# Naam script = aanpassen_wp.sh
 
-# Downloaden en uitpakken van WordPress
-Invoke-WebRequest -Uri "https://wordpress.org/latest.tar.gz" -OutFile "latest.tar.gz"
-Expand-Archive -Path "latest.tar.gz" -DestinationPath $config.wordpressPath
+# Ophalen van configuratiebestand klantgegevens_coureur_local.sh
+source klantgegevens_coureur_local.sh
 
-# Kopiëren van WordPress-bestanden naar de gewenste locatie
-Copy-Item -Path "wordpress\*" -Destination $config.wordpressPath -Recurse
+# WordPress Configuratiebestand aanmaken
+cp "wordpress/wp-config-sample.php" "wordpress/wp-config.php"
 
-# Configuratiebestand aanmaken
-Copy-Item -Path "$($config.wordpressPath)\wp-config-sample.php" -Destination "$($config.wordpressPath)\wp-config.php"
+# Check of het configuratiebestand is aangemaakt
+if [ -f "wordpress/wp-config.php" ]; then
+echo "Configuratiebestand is aangemaakt: $wordpressPath/wp-config.php"
+else
+echo "Fout bij het aanmaken van het configuratiebestand."
+exit 1
+fi
 
-# Invullen van databasegegevens in het configuratiebestand
-(Get-Content -Path "$($config.wordpressPath)\wp-config.php") |
-ForEach-Object {
-    $_ -replace "'DB_HOST', 'localhost'", "'DB_HOST', '$($config.dbHost)'" `
-    -replace "'DB_PORT', '3306'", "'DB_PORT', '$($config.dbPort)'" `
-    -replace "'DB_USER', 'db_username'", "'DB_USER', '$($config.dbUser)'" `
-    -replace "'DB_PASSWORD', 'db_password'", "'DB_PASSWORD', '$($config.dbPassword)'" `
-    -replace "'DB_NAME', 'db_name'", "'DB_NAME', '$($config.dbName)'" `
-} | Set-Content -Path "$($config.wordpressPath)\wp-config.php"
+# Associative array met databasegegevens en WordPress-site instellingen
+declare -A replacements=(
+['DB_HOST']="$dbHost"
+['DB_PORT']="$dbPort"
+['DB_USER']="$dbUser"
+['DB_PASSWORD']="$dbPassword"
+['DB_NAME']="$dbName"
+['WP_HOME']="$siteUrl"
+['WP_SITEURL']="$siteUrl"
+['WP_TITLE']="$siteTitle"
+['WP_DESCRIPTION']="$siteDescription"
+['WP_TIMEZONE']="$siteTimezone"
+['WP_LANG']="$siteLanguage"
+)
 
-# Aanpassen van bestandseigenaar en -groep (optioneel)
-if ($config.chownEnabled) {
-    $acl = Get-Acl $config.wordpressPath
-    $acl.SetOwner([System.Security.Principal.NTAccount]("IIS APPPOOL\$($config.appPoolUser)"))
-    Set-Acl -Path $config.wordpressPath -AclObject $acl
+# Functie om databasegegevens te vervangen in het configuratiebestand
+function replace_database_value() {
+    local key="$1"
+    local value="$2"
+    perl -i -pe "s|define\(\s*'$key',\s*\K.*?(?=\);)|'$value'|g" "wordpress/wp-config.php"
 }
 
-# Bijwerken van WordPress-site instellingen
-Set-ItemProperty -Path "$($config.wordpressPath)\wp-config.php" -Name "siteurl" -Value $config.siteUrl
-Set-ItemProperty -Path "$($config.wordpressPath)\wp-config.php" -Name "blogname" -Value $config.siteTitle
-Set-ItemProperty -Path "$($config.wordpressPath)\wp-config.php" -Name "blogdescription" -Value $config.siteDescription
-Set-ItemProperty -Path "$($config.wordpressPath)\wp-config.php" -Name "timezone_string" -Value $config.siteTimezone
-Set-ItemProperty -Path "$($config.wordpressPath)\wp-config.php" -Name "WPLANG" -Value $config.siteLanguage
+# Vervangen van databasegegevens en WordPress-site instellingen in het configuratiebestand
+for key in "${!replacements[@]}"; do
+replace_database_value "$key" "${replacements[$key]}"
+done
 
-# Verwijderen van WordPress-archief
-Remove-Item "latest.tar.gz"
-
-Write-Host "WordPress is geïnstalleerd, databasegegevens zijn automatisch ingevuld en een standaard gebruikersaccount is aangemaakt."
+echo "WordPress databasegegevens zijn automatisch ingevuld en een standaard gebruikersaccount is aangemaakt."
 \end{minted}
 \subsection{Voorbeeldscript custom theme}
 Indien er gekozen wordt om een volledig nieuw custom theme aan te maken en te activeren, kan dit ook met behulp van scripting.
@@ -363,7 +389,7 @@ Ook voor dit script halen we de configuratiebestand op voor het pad naar de Word
     \item alle scripts tot één script te combineren
     \item ...
 \end{itemize} 
-De auteur raadt aan om te wachten met het installeren van plugins in verband met beveiliging totdat de webshop live staat. Dit omdat deze plugins (bv. Wordfence) een firewall installeren, die bij het deployen van een webshop dubbel werk kunnen geven.
+Het is aangewezen te wachten met het installeren van plugins in verband met beveiliging totdat de webshop live staat. Dit omdat deze plugins (bv. Wordfence) een firewall installeren, die bij het deployen van een webshop dubbel werk kunnen geven.
 \section{Styling van lay-out}
 Indien er voor een custom theme wordt gekozen en de styling volledig vanaf nul moet worden overgenomen, zijn er op moment van schrijven weinig AI-tools om daarbij te helpen. Het grote probleem is dat afbeelding-herkenningen nog niet aanwezig zijn in de publiek toegankelijk AI-tools. Deze zouden echter de beste oplossing zijn voor dit probleem. Naar toekomstig gebruik toe kan een gebruiker op basis van een screenshot vragen om het in code om te zetten. Op moment van schrijven moet de gebruiker zelf zeer duidelijk specifiëren wat hij wilt, wat zeer omslachtig is. Daarom is het sterk aangeraden om voor deze stap nog met een front-end developer te werken.
 

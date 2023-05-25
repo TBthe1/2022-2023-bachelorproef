@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+ch}{\PYGZsh{}!/bin/bash}
+\PYG{c+c1}{\PYGZsh{} Naam script = opzet\PYGZus{}wp.sh}
+
+\PYG{c+c1}{\PYGZsh{} Ophalen van configuratiebestand klantgegevens\PYGZus{}coureur\PYGZus{}local.sh}
+\PYG{n+nb}{source}\PYG{+w}{ }klantgegevens\PYGZus{}coureur\PYGZus{}local.sh
+
+\PYG{c+c1}{\PYGZsh{} Downloaden en uitpakken van WordPress met Pipe Viewer}
+curl\PYG{+w}{ }\PYGZhy{}\PYGZsh{}\PYG{+w}{ }\PYGZhy{}L\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}https://wordpress.org/latest.tar.gz\PYGZdq{}}\PYG{+w}{ }\PYG{p}{|}\PYG{+w}{ }pv\PYG{+w}{ }\PYGZhy{}p\PYG{+w}{ }\PYGZhy{}t\PYG{+w}{ }\PYGZhy{}e\PYG{+w}{ }\PYGZhy{}b\PYG{+w}{ }\PYGZhy{}a\PYG{+w}{ }\PYG{p}{|}\PYG{+w}{ }tar\PYG{+w}{ }\PYGZhy{}xzf\PYG{+w}{ }\PYGZhy{}\PYG{+w}{ }\PYGZgt{}/dev/null
+
+\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}WordPress is geïnstalleerd.\PYGZdq{}}
+\end{Verbatim}
