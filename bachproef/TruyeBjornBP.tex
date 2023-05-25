@@ -191,9 +191,12 @@ Het uiteindelijke resultaat zal een geschreven programma zijn dat de co-promotor
 %%---------- Andere bijlagen --------------------------------------------------
 % TODO: Voeg hier eventuele andere bijlagen toe. Bv. als je deze BP voor de
 % tweede keer indient, een overzicht van de verbeteringen t.o.v. het origineel.
-\chapter{Test}
-
-Op de volgenda pagina's zie je ...
+\chapter{AgentGPT resultaat}
+Wanneer je aan AgentGPT een complexere vraag stelt zoals “Clone the webshop https://www.coureurlocal.be/” dan gaat de tool de vraag eerst opsplitsen in kleinere taken. De opgegeven website kan direct gevonden worden en de tool weet dat het noodzakelijk zal zijn om de website data op te halen m.b.v. scraping tools. Vervolgens zal een design moeten ontwikkeld worden die zo dicht mogelijk aansluit bij het huidige design van de website. Nadien zal de e-commerce functionaliteit moeten voorzien worden, wat Team Made m.b.v. WooCommerce wilt bereiken. Tenslotte moeten alle productdata verzameld worden. Merk op dat de oorspronkelijke vraag in het Engels is gesteld, maar de tool tussen Nederlands en Engels afwisselt.
+\\\\
+De tool begint vervolgens taak per taak dieper te analyseren. Het beschrijft welke stappen het gaat ondernemen, maar schrijft de code die noodzakelijk is bij een bepaalde stap niet volledig uit. De tool stelt tijdens het uitwerken van een taak direct een plan van aanpak op. Ook worden deze niet altijd volledig uitgeschreven. 
+\\\\
+We eindigen met een korte mededeling dat de demo-applicatie (zonder een eigen API-sleutel) zijn tijd verstreken is. Desondanks de onvolledigheid van deze tool, hebben we wel veel informatie verworven. Er zijn voor deze AI-tool geen kosten gemaakt om verder te analyseren wat met een eigen API-sleutel realiseerbaar is.
 \includepdf[pages=-]{agentGPT_coureur_local.pdf}
 %\input{agentGPT_coureur_local.pdf}
 %\input{./agentGPT_coureur_local.pdf}:

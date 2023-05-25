@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Kan ook met wget werken}
+curl\PYG{+w}{ }\PYGZhy{}O\PYG{+w}{ }https://raw.githubusercontent.com/wp\PYGZhy{}cli/builds/gh\PYGZhy{}pages/phar/wp\PYGZhy{}cli.phar
+\end{Verbatim}

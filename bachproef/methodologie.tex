@@ -14,18 +14,37 @@
 \section{Analyse}
 De bestaande AI-tools (tijdens de periode van de literatuurstudie) worden aandachtig doorlopen en direct op de proef gesteld door (stukken van) een webshop van de co-promotor zijn lijst na te maken als template. Deze templates moeten zo dicht mogelijk aanleunen bij het gewenste resultaat (de oorspronkelijke webshop). Vervolgens bekijken we of de AI-tools in staat zijn om data te voorzien op deze templates.
 
-\subsection{Lijst van AI-tools}
-Volgende AI-tools worden gebruikt voor het overnemen van lay-out en data:
+\subsection{AI-tools voor te programmeren}
+Onderstaande AI-tools kunnen gebruikt worden om code uit te leggen en te laten genereren. Dit zijn handige hulpmiddelen om te programmeren met elk hun eigen voor- en nadelen. Op moment van schrijven heeft ChatGPT een 'Plus'\footnote{\href{https://openai.com/blog/chatgpt-plus}{https://openai.com/blog/chatgpt-plus}} optie die 20 dollar per maand kost. Hiermee is de tool meer beschikbaar (minder downtime van de server), worden de antwoorden sneller weergegeven en zijn nieuwe uitbreidingen sneller toegankelijk. Deze optie is niet uitgetest, maar kan interessant zijn als beschikbaarheid een belangrijke factor speelt. Zie figuur \ref{vergelijking_ai_tools_programmeren} voor een korte vergelijkende studie tussen deze AI-tools.  
 \begin{itemize}
-    \item ChatGPT (op moment van schrijven zeer onstabiel)
-    \item CopyAI (op moment van schrijven weinig werkende opties)
-    \item 10Web (exporteren helaas niet mogelijk)
-    \item Bing AI (toegang gekregen op 17/03)
-    \item AgentGPT (op moment van schrijven zeer onstabiel)
-\end{itemize} 
+    \item ChatGPT (op moment van schrijven zeer onstabiel wegens grote overlast van actieve gebruikers)
+    \item Bing AI (pas toegang gekregen op 17/03 en bijgevolg weinig kunnen analyseren)
+    \item Bard van Google (momenteel nog niet beschikbaar in België, maar via VPN's wel toegankelijk)
+\end{itemize}
+\begin{figure}
+    \caption{'Vergelijking van AI-tools voor te programmeren'}
+    \label{vergelijking_ai_tools_programmeren}
+    \centering
+    \includegraphics[width=\textwidth]{vergelijking_ai_tools_programmeren.png}
+\end{figure}
+
+\subsection{AI-tools met AI-Agents}
+Volgende AI-tools maken gebruik van AI-Agents om (sub)taken uit te voeren. Deze tools kunnen naar de toekomst toe zeer relevant worden in de IT-sector om grotere of complexere taken uit te voeren, die voor voorgaande AI-tools op moment van schrijven nog niet haalbaar zijn (bv. haal op volgende webpagina alle artikelen op waarvan de prijzen tussen de €20 en €50 euro liggen, en steek alles in .csv bestand). Beide tools zijn reeds aan bod gekomen op ********
+\begin{itemize}
+    \item Auto-GPT
+    \item AgentGPT
+    \item Godmode
+\end{itemize}
+
+\subsection{AI-tools voor volledige ontwikkeling}
+Afhankelijk van hoe volgende AI-tools evolueren kunnen deze een mogelijks grote impact spelen in de ontwikkeling en overname van een webshop. 
+\begin{itemize}
+    \item 10Web (exporteren van een afgewerkt product is helaas niet mogelijk)
+    \item Elementor AI (reeds besproken in het hoofdstuk 'Eervolle vermeldingen' \ref{elementor_ai_hoofdstuk})
+\end{itemize}    
 
 \subsection{Criteria}
-De AI-tools kunnen met elkaar vergeleken worden op basis van heel wat meetbare aspecten. Aangezien de AI-evolutie deze constant beïnvloedt is het aan de co-promotor zelf om hierin een besluit te trekken. Een aantal van deze aspecten zijn:
+De AI-tools kunnen met elkaar vergeleken worden op basis van heel wat meetbare aspecten. Het is aan de gebruiker zelf om hierin een besluit te trekken op basis van prioriteiten, beschikbare budget enzovoort. Een aantal van deze aspecten zijn:
 \begin{itemize}
     \item de prijs
     \begin{itemize}
@@ -145,17 +164,55 @@ Om de veiligheid en toekomstige compatibiliteit van het script te verbeteren kan
 \\\\
 De WP-CLI maakt gebruik van wp option update commando's. Om wp option update te gebruiken in een script, moet je eerst zorgen dat WP-CLI is geïnstalleerd op je systeem en dat het beschikbaar is in het pad (PATH).
 \\\\
-Hiervoor is PHP 5.4.0 of hoger nodig. De versie kan je controleren in de terminal met volgend commando:
+Hiervoor is PHP 5.4.0 of hoger nodig. De versie (en de locatie) kan je controleren in de terminal met volgend(e) commando('s):
 \begin{minted}{bash}
 php --version
+# Voor de locatie op te halen: php --ini
 \end{minted}
-Indien je geen antwoord krijgt dan moet je PHP nog installeren. Vervolgens moet je \href{https://wp-cli.org/#installing}{WP-CLI} downloaden en installeren.. Tenslotte moet je het pad van wp-cli nog toevoegen aan de omgevingsvariable PATH op jouw systeem. Je kan controleren of alles goed werkt door info op te halen via het commando:
+\begin{figure}
+    \caption{'Ophalen van PHP informatie'}
+    \label{ophalen_php_info}
+    \centering
+    \includegraphics[width=\textwidth]{ophalen_php_info.png}
+\end{figure}Zie figuur \ref{ophalen_php_info} voor een succesvol resultaat. Indien je geen antwoord krijgt dan moet je PHP nog installeren. Vervolgens moet je WP-CLI\footnote{\href{https://wp-cli.org/\#installing}{https://wp-cli.org/\#installing}} downloaden en installeren. Het is aangeraden om de officiële documentatie van WP-CLI te volgen, eventueel in combinatie met de documentatie op make.wordpress\footnote{\href{https://make.wordpress.org/cli/handbook/guides/installing/}{https://make.wordpress.org/cli/handbook/guides/installing/}}. 
+\\\\
+De stappen die moeten ondernomen worden op een Windows-besturingssysteem zijn als volgt:
+\\\\
+1. Haal de wp-cli.phar op met het commando:
+\begin{minted}{bash}
+# Kan ook met wget werken
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+\end{minted}
+2. Controleer in de folder of de .phar file werkt met het commando
+\begin{minted}{bash}
+php wp-cli.phar --info
+\end{minted}
+3. Vervolgens maak je het bestand uitvoerbaar met het commando
+\begin{minted}{bash}
+chmod +x wp-cli.phar
+\end{minted}
+4. Tenslotte verplaats je het bestand naar een globale plaats op de computer, een voorbeeld hiervan is
+\begin{minted}{bash}
+sudo mv wp-cli.phar /usr/local/bin/wp
+\end{minted}
+5. Een update voorzien kan met het commando
+\begin{minted}{bash}
+sudo wp cli update
+\end{minted}
+Dit zal bij een succesvolle installatie reageren met 'WP-CLI is at the latest version'. Tenslotte moet je het pad van wp-cli nog toevoegen aan de omgevingsvariable PATH op jouw systeem. Dit kan bij 'Edit the system environment variables > Advanced > Environment Variables > System variables > zoeken naar de variabele Path'. Pas hier de variabele aan.
+\\\\
+Je kan controleren of alles goed werkt door info op te halen via het commando
 \begin{minted}{bash}
 wp --info
 \end{minted}
-
+\begin{figure}
+    \caption{'Ophalen van WP informatie'}
+    \label{ophalen_wp_info}
+    \centering
+    \includegraphics[width=\textwidth]{ophalen_wp_info.png}
+\end{figure}Als alles goed is gelukt kan je voortaan globaal op de machine WP-CLI gebruiken. Zie figuur \ref{ophalen_wp_info} voor een voorbeeld van een succesvol resultaat. We kiezen voor dit globaal te gebruiken zodat alle (toekomstige) projecten dit kunnen hanteren (in plaats van per project een WP-CLI te downloaden). 
 \subsection{Voorbeeldscript configuratiebestand}
-Wachtwoorden en andere gevoelige gegevens worden best veilig opgeslagen in een aparte configuratiebestand en worden best niet zomaar weergegeven in een script. Het grote voordeel aan deze werkwijze is dat alle noodzakelijke gegevens voor de installatie op één centrale plaats komen te staan. Op de \href{https://wordpress.org/documentation/article/settings-general-screen/}{WordPress website} kunnen alle mogelijke settings om aan te passen worden teruggevonden.
+Wachtwoorden en andere gevoelige gegevens worden best veilig opgeslagen in een aparte configuratiebestand en worden best niet zomaar weergegeven in een script. Het grote voordeel aan deze werkwijze is dat alle noodzakelijke gegevens voor de installatie op één centrale plaats komen te staan. Op de WordPress website\footnote{\href{https://wordpress.org/documentation/article/settings-general-screen/}{https://wordpress.org/documentation/article/settings-general-screen/}} kunnen alle mogelijke settings om aan te passen worden teruggevonden.
 \\\\
 Je kan op een Windows-besturingssysteem een script toevoegen door een tekstbestand toe te voegen, de lijnen code in te vullen en vervolgens de bestandsextensie te veranderen van .txt naar .sh. Om Shell-scripts te gebruiken op Windows heb je een Linux shell nodig en een command-language Bash. Je kan op Windows werken met deze scripts zonder Ubuntu te downloaden m.b.v. WSL (Windows Subsystem for Linux). Hiervoor ga je naar 'settings > update \& security > for developers >' en zet de knop 'Developer mode' aan. Vervolgens zoek je naar 'Turn Windows features on or off' en vink je de WSL map aan. Na de installatie kan een herstart van de computer noodzakelijk zijn. 
 \\\\
@@ -279,68 +336,93 @@ done
 
 echo "WordPress databasegegevens zijn automatisch ingevuld en een standaard gebruikersaccount is aangemaakt."
 \end{minted}
+In deze voorbeelden werken we met XAMPP Control Panel (v3.3.0), waarbij we de modules Apache en MySQL gebruiken, en de WordPress databank bijhouden in phpMyAdmin. We kunnen vanaf volgende stappen de automatisch gegenereerde WordPress-folder verplaatsen naar de 'htdocs' folder van XAMPP. Als we navigeren in een browser naar http://localhost/wordpress/ dan komen we op een WordPress installatie uit. De phpMyAdmin kunnen we bereiken via http://localhost/phpmyadmin. Hierbij kijkt de installatie naar de aanwezige wp-config om een connectie te maken met de databank. Op dit ogenblik is er echter nog geen aanwezig.
+\\\\
+Het aanmaken van een databank en gebruiker in phpMyAdmin kan manueel door volgende stappen te ondernemen:
+\begin{itemize}
+    \item Onder het tabblad 'Databases' geef je een naam op en maak je een database aan met als type utf8mb4\_general\_ci
+    \item Vervolgens voeg je onder het tabblad 'Users' een gebruiker toe
+    \item Bewerk indien gewenst de rechten van de gebruiker door helemaal rechts in het overzicht op 'Edit privileges' te klikken
+\end{itemize}
+Eens dat deze stappen zijn voltooid is een databank klaar om gekoppeld te worden. Wanneer alle data van WordPress is voorzien (na de installatie) kan de tabel worden geoptimaliseerd in het tabeloverzicht van phpMyAdmin.
 \subsection{Voorbeeldscript custom theme}
 Indien er gekozen wordt om een volledig nieuw custom theme aan te maken en te activeren, kan dit ook met behulp van scripting.
 Een voorbeeld van een PowerShell script voor het aanmaken en activeren van een custom theme dat opnieuw gebruik maakt van een configuratiebestand:
 \begin{minted}{bash}
-# Import the configuration file
-$configFilePath = "C:\path\to\config.ps1"  # Path to the configuration file
-$config = Get-Content -Path $configFilePath -Raw | Invoke-Expression
+#!/bin/bash
+# Naam script = custom_theme_wp.sh
 
-# Retrieve the values from the configuration
-$wordpressPath = $config.wordpressPath
-$author = $config.author
-$themesPath = $config.themesPath
-$themeName = $config.themeName
-$themeDescription = $config.themeDescription
+# Ophalen van configuratiebestand klantgegevens_coureur_local.sh
+source klantgegevens_coureur_local.sh
+
+# Navigate to the themes directory
+cd "wordpress/wp-content/themes/"
 
 # Create the custom theme folder
-$themeFolderPath = Join-Path -Path $themesPath -ChildPath $themeName
-New-Item -Path $themeFolderPath -ItemType Directory -Force
+mkdir -p "$themeName"
 
-# Add a sample image to the theme folder
-$sampleImage = "C:\path\to\sample-image.jpg" 
-$destinationImagePath = Join-Path -Path $themeFolderPath -ChildPath "sample-image.jpg"
-Copy-Item -Path $sampleImage -Destination $destinationImagePath -Force
+# Navigate back to root
+cd "../../../"
+
+currentDirectory=$(pwd)
+
+# Add a theme image to the theme folder
+sampleImage="$currentDirectory/../assets/coureurlocalrond150.png"
+destinationImagePath="$currentDirectory/$themesPath/$themeName/styles.png"
+cp "$sampleImage" "$destinationImagePath"
 
 # Create the necessary theme files
-$styleFilePath = Join-Path -Path $themeFolderPath -ChildPath "style.css"
-$indexFilePath = Join-Path -Path $themeFolderPath -ChildPath "index.php"
+styleFilePath="$currentDirectory/$themesPath/$themeName/style.css"
+indexFilePath="$currentDirectory/$themesPath/$themeName/index.php"
 
 # Generate the content for the style.css file
-$styleContent = @"
-/*
+styleContent="/*
 Theme Name: $themeName
 Description: $themeDescription
 Version: 1.0
 Author: $author
 */
 
-/* Additional CSS styles go here */
-"@
-$styleContent | Set-Content -Path $styleFilePath
+/* Additional CSS styles go here */"
+echo "$styleContent" > "$styleFilePath"
 
 # Generate the content for the index.php file
-$indexContent = @"
-<?php
+indexContent="<?php
 // Silence is golden.
-"@
-$indexContent | Set-Content -Path $indexFilePath
+"
+echo "$indexContent" > "$indexFilePath"
+
+# Download wp-cli if it doesn't exist
+if [ ! -f "wordpress/wp-cli.phar" ]; then
+    echo "Downloading wp-cli..."
+    curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+    chmod +x wp-cli.phar
+    mv wp-cli.phar wordpress/
+fi
 
 # Activate the custom theme
-$command = "& `"$wordpressPath\wp-cli.phar`" --path=`"$wordpressPath`" theme activate $themeName"
-Invoke-Expression $command
+command="./wordpress/wp-cli.phar --path='./wordpress' theme activate '$themeName'"
+eval "$command"
 
 # Output success message
-Write-Host "Custom theme '$themeName' is geïnstalleerd en geactiveerd"
+echo "Custom theme '$themeName' is geïnstalleerd en geactiveerd."
 \end{minted}
-Via deze weg kan heel eenvoudig per klant een custom theme worden aangemaakt door enkel het configuratiebestand manueel in te vullen, en een afbeelding te voorzien.
+Via deze weg kan heel eenvoudig per klant een custom theme worden aangemaakt door enkel het configuratiebestand ('klantgegevens\_coureur\_local.sh' in dit geval) manueel in te vullen, en een afbeelding te voorzien op dezelfde plaats als aangegeven in dat bestand.
 
+\subsection{Voorbeeldscript installatie WordPress-database}
+Dit script maakt gebruik van mysql. Om te controleren of deze reeds geïnstalleerd is kan je volgend commando gebruiken:
+\begin{minted}{bash}
+mysql --version 
+\end{minted}
+Indien het nog niet geïnstalleerd is kan je dit doen met het commando:
+\begin{minted}{bash}
+sudo apt install mysql-client
+\end{minted}
 \subsection{Voorbeeldscript plugins}
 Eens een WordPress installatie volledig opgezet is dan kan een admin zich inloggen en visueel plugins beheren. Het is echter ook mogelijk om via scripting een plugin te downloaden en vervolgens te installeren in de WordPress-installatie. Deze nieuwe plugin komt dan ook terecht in de directory /wp-content/plugins. Ook dit bespaart manueel werk als op voorhand reeds geweten is welke plugin(s) zullen worden gebruikt.
 \\\\
 Belangrijk om in het achterhoofd te houden is dat plugins geschreven zijn door mensen die (meestal) niet per se van WordPress zelf zijn. Hou er rekening mee dat plugins beveiligingsrisico's met zich meenemen en mogelijks uw webshop kwetsbaar kunnen maken zoals Advanced Custom Fields (Pro) die in oudere versies XSS-aanvallen toelaat \autocite{Leemputten2023}. Het is aan de programmeur om te bepalen welke versie je neemt van de plugin, en of je de plugins automatisch laat updaten door WordPress of niet. Een mogelijke reden om niet automatisch te willen updaten kan het breken van compatibiliteit met andere plugins of andere WordPress functionaliteiten zijn.
-\\\\
+
 Een voorbeeld van een PowerShell script voor het downloaden en installeren van de WooCommerce plugin:
 \begin{minted}{bash}
 # Import the configuration file
@@ -394,7 +476,7 @@ Het is aangewezen te wachten met het installeren van plugins in verband met beve
 Indien er voor een custom theme wordt gekozen en de styling volledig vanaf nul moet worden overgenomen, zijn er op moment van schrijven weinig AI-tools om daarbij te helpen. Het grote probleem is dat afbeelding-herkenningen nog niet aanwezig zijn in de publiek toegankelijk AI-tools. Deze zouden echter de beste oplossing zijn voor dit probleem. Naar toekomstig gebruik toe kan een gebruiker op basis van een screenshot vragen om het in code om te zetten. Op moment van schrijven moet de gebruiker zelf zeer duidelijk specifiëren wat hij wilt, wat zeer omslachtig is. Daarom is het sterk aangeraden om voor deze stap nog met een front-end developer te werken.
 
 \section{Overname van data}
-Voor het ophalen van goederen en/of diensten hun data zijn er verschillende opties aanwezig. Voor de auteur was het op moment van schrijven niet mogelijk om op de beta versie alle functionaliteiten van AgentGPT te testen, maar webscraping bleek wel (in beperkte mate) goed te werken. Indien dit in de toekomst blijft werken (of zal verbeteren) is dit een zeer gebruiksvriendelijke werkwijze om zonder extra tools data van een webpagina op te halen. Merk op dat AgentGPT gebruik maakt van een Python bibliotheek \href{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}{Beautiful Soup} om data op te halen van een webpagina (zie figuur 3.1). 
+Voor het ophalen van goederen en/of diensten hun data zijn er verschillende opties aanwezig. Voor de auteur was het op moment van schrijven niet mogelijk om op de beta versie alle functionaliteiten van AgentGPT te testen, maar webscraping bleek wel (in beperkte mate) goed te werken. Indien dit in de toekomst blijft werken (of zal verbeteren) is dit een zeer gebruiksvriendelijke werkwijze om zonder extra tools data van een webpagina op te halen. Merk op dat AgentGPT gebruik maakt van een Python bibliotheek Beautiful Soup\footnote{\href{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}} om data op te halen van een webpagina (zie figuur 3.1). 
 \begin{figure}
     \caption{'AgentGPT gebruikt BeautifulSoup voor het ophalen van data op een webpagina'}
     \begin{center}
@@ -402,4 +484,4 @@ Voor het ophalen van goederen en/of diensten hun data zijn er verschillende opti
     \end{center}
 \end{figure} 
 \\\\
-ChatGPT kan op moment van schrijven al bestaande data omzetten naar nieuwe type data. Hiermee kan je een .csv-file aanmaken met de verkregen data, mocht die nog niet in een .csv-file zitten, om vervolgens te \href{https://woocommerce.com/document/importing-woocommerce-sample-data/}{importeren met in de WooCommerce plugin}.
+ChatGPT kan op moment van schrijven al bestaande data omzetten naar nieuwe type data. Hiermee kan je een .csv-file aanmaken met de verkregen data, mocht die nog niet in een .csv-file zitten, om vervolgens te importeren met in de WooCommerce plugin\footnote{\href{https://woocommerce.com/document/importing-woocommerce-sample-data/}{https://woocommerce.com/document/importing-woocommerce-sample-data/}}.

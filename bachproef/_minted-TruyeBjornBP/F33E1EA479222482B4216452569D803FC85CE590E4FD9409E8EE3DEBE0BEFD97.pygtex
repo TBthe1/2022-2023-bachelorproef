@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+php\PYG{+w}{ }\PYGZhy{}\PYGZhy{}version
+\PYG{c+c1}{\PYGZsh{} Voor de locatie op te halen: php \PYGZhy{}\PYGZhy{}ini}
+\end{Verbatim}

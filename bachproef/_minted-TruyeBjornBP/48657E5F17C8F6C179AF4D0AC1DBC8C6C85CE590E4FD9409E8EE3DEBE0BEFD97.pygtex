@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+sudo\PYG{+w}{ }wp\PYG{+w}{ }cli\PYG{+w}{ }update
+\end{Verbatim}

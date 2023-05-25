@@ -1,0 +1,59 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+ch}{\PYGZsh{}!/bin/bash}
+\PYG{c+c1}{\PYGZsh{} Naam script = custom\PYGZus{}theme\PYGZus{}wp.sh}
+
+\PYG{c+c1}{\PYGZsh{} Ophalen van configuratiebestand klantgegevens\PYGZus{}coureur\PYGZus{}local.sh}
+\PYG{n+nb}{source}\PYG{+w}{ }klantgegevens\PYGZus{}coureur\PYGZus{}local.sh
+
+\PYG{c+c1}{\PYGZsh{} Navigate to the themes directory}
+\PYG{n+nb}{cd}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}wordpress/wp\PYGZhy{}content/themes/\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Create the custom theme folder}
+mkdir\PYG{+w}{ }\PYGZhy{}p\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Navigate back to root}
+\PYG{n+nb}{cd}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}../../../\PYGZdq{}}
+
+\PYG{n+nv}{currentDirectory}\PYG{o}{=}\PYG{k}{\PYGZdl{}(}\PYG{n+nb}{pwd}\PYG{k}{)}
+
+\PYG{c+c1}{\PYGZsh{} Add a theme image to the theme folder}
+\PYG{n+nv}{sampleImage}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}currentDirectory}\PYG{l+s+s2}{/../assets/coureurlocalrond150.png\PYGZdq{}}
+\PYG{n+nv}{destinationImagePath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}currentDirectory}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themesPath}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{/styles.png\PYGZdq{}}
+cp\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}sampleImage}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}destinationImagePath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Create the necessary theme files}
+\PYG{n+nv}{styleFilePath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}currentDirectory}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themesPath}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{/style.css\PYGZdq{}}
+\PYG{n+nv}{indexFilePath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}currentDirectory}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themesPath}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{/index.php\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Generate the content for the style.css file}
+\PYG{n+nv}{styleContent}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}/*}
+\PYG{l+s+s2}{Theme Name: }\PYG{n+nv}{\PYGZdl{}themeName}
+\PYG{l+s+s2}{Description: }\PYG{n+nv}{\PYGZdl{}themeDescription}
+\PYG{l+s+s2}{Version: 1.0}
+\PYG{l+s+s2}{Author: }\PYG{n+nv}{\PYGZdl{}author}
+\PYG{l+s+s2}{*/}
+
+\PYG{l+s+s2}{/* Additional CSS styles go here */\PYGZdq{}}
+\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}styleContent}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYGZgt{}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}styleFilePath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Generate the content for the index.php file}
+\PYG{n+nv}{indexContent}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZlt{}?php}
+\PYG{l+s+s2}{// Silence is golden.}
+\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}indexContent}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYGZgt{}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}indexFilePath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Download wp\PYGZhy{}cli if it doesn\PYGZsq{}t exist}
+\PYG{k}{if}\PYG{+w}{ }\PYG{o}{[}\PYG{+w}{ }!\PYG{+w}{ }\PYGZhy{}f\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}wordpress/wp\PYGZhy{}cli.phar\PYGZdq{}}\PYG{+w}{ }\PYG{o}{]}\PYG{p}{;}\PYG{+w}{ }\PYG{k}{then}
+\PYG{+w}{    }\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Downloading wp\PYGZhy{}cli...\PYGZdq{}}
+\PYG{+w}{    }curl\PYG{+w}{ }\PYGZhy{}O\PYG{+w}{ }https://raw.githubusercontent.com/wp\PYGZhy{}cli/builds/gh\PYGZhy{}pages/phar/wp\PYGZhy{}cli.phar
+\PYG{+w}{    }chmod\PYG{+w}{ }+x\PYG{+w}{ }wp\PYGZhy{}cli.phar
+\PYG{+w}{    }mv\PYG{+w}{ }wp\PYGZhy{}cli.phar\PYG{+w}{ }wordpress/
+\PYG{k}{fi}
+
+\PYG{c+c1}{\PYGZsh{} Activate the custom theme}
+\PYG{n+nv}{command}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}./wordpress/wp\PYGZhy{}cli.phar \PYGZhy{}\PYGZhy{}path=\PYGZsq{}./wordpress\PYGZsq{} theme activate \PYGZsq{}}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{\PYGZsq{}\PYGZdq{}}
+\PYG{n+nb}{eval}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}command}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Output success message}
+\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Custom theme \PYGZsq{}}\PYG{n+nv}{\PYGZdl{}themeName}\PYG{l+s+s2}{\PYGZsq{} is geïnstalleerd en geactiveerd.\PYGZdq{}}
+\end{Verbatim}
