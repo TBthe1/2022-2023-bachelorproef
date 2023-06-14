@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+ch}{\PYGZsh{}!/bin/bash}
+\PYG{c+c1}{\PYGZsh{} Naam script = install\PYGZus{}woocommerce.sh}
+
+\PYG{c+c1}{\PYGZsh{} Set the plugins path}
+\PYG{n+nv}{pluginsPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}PWD}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} WooCommerce plugin download URL}
+\PYG{n+nv}{woocommerceUrl}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}https://downloads.wordpress.org/plugin/woocommerce.latest\PYGZhy{}stable.zip\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} WooCommerce plugin name and downloaded ZIP file name}
+\PYG{n+nv}{woocommerceName}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}woocommerce\PYGZdq{}}
+\PYG{n+nv}{woocommerceFileName}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceName}\PYG{l+s+s2}{.zip\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Download WooCommerce plugin}
+\PYG{n+nv}{woocommerceFilePath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}PWD}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}woocommerceFileName}\PYG{l+s+s2}{\PYGZdq{}}
+wget\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceUrl}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYGZhy{}O\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Extract WooCommerce plugin to the plugins folder}
+7z\PYG{+w}{ }x\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYGZhy{}o\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}pluginsPath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Delete the zipped download file}
+rm\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceFilePath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Display success message}
+\PYG{n+nb}{echo}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}WooCommerce plugin is downloaded, unzipped, and the zipped download is deleted.\PYGZdq{}}
+\end{Verbatim}

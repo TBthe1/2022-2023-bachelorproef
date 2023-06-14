@@ -31,52 +31,58 @@
 \contentsline {subsection}{\numberline {2.6.3}Limieten en pijnpunten}{9}{subsection.2.6.3}%
 \contentsline {subsection}{\numberline {2.6.4}Tijdelijke oplossingen}{10}{subsection.2.6.4}%
 \contentsline {chapter}{\numberline {3}Methodologie}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Analyse}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}AI-tools voor te programmeren}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}AI-tools met AI-Agents}{12}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}AI-tools voor volledige ontwikkeling}{12}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Criteria}{13}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}De webshops van de co-promotor}{13}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Scenario's}{14}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Installatie van WordPress}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Folderstructuur}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}De wp-content}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Databank en sitegegevens}{15}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Custom theme}{15}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}WP-CLI}{16}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Voorbeeldscript configuratiebestand}{18}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Voorbeeldscript download WordPress}{21}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Voorbeeldscript algemene opzet}{21}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Voorbeeldscript custom theme}{23}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Voorbeeldscript installatie WordPress-database}{24}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}Voorbeeldscript plugins}{24}{subsection.3.2.11}%
-\contentsline {section}{\numberline {3.3}Styling van lay-out}{26}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Overname van data}{26}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Stappenplan}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Inleiding}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Algemeen scenario}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Configuratiebestand}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Bepalen van plugins}{28}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Bepalen van thema}{29}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Opbouw WordPress}{29}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Controleer installatie}{29}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Voorzie styling}{29}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Vul op met data}{29}{subsection.4.2.7}%
-\contentsline {chapter}{\numberline {5}Conclusie}{30}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Switch van aanpak}{30}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Ondervindingen}{30}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Nieuwe verwachtingen}{31}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Aanbevelingen voor de toekomst}{31}{section.5.4}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{33}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Introductie}{34}{section.A.1}%
-\contentsline {section}{\numberline {A.2}State-of-the-art}{35}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{36}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Eerste fase - WordPress en WooCommerce automatiseren}{36}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Tweede fase - Een WordPress webshop overnemen}{36}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Derde fase - Een niet-WordPress webshop overnemen}{36}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Vierde fase - Uitbreiden van scenario's}{37}{subsection.A.3.4}%
-\contentsline {subsection}{\numberline {A.3.5}Vijfde fase - Testen met de lijst}{37}{subsection.A.3.5}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{37}{section.A.4}%
-\contentsline {chapter}{\numberline {B}AgentGPT resultaat}{39}{appendix.B}%
-\contentsline {chapter}{Bibliografie}{45}{appendix*.10}%
+\contentsline {section}{\numberline {3.1}Switch van aanpak}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Analyse}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}AI-tools voor te programmeren}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}AI-tools met AI-Agents}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}AI-tools voor volledige ontwikkeling}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Criteria}{13}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}De webshops van Team Made}{14}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Scenario's}{15}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Uitleg installatie}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Folderstructuur}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}De wp-content}{16}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Databank en sitegegevens}{16}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Eigen thema (custom theme)}{16}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}WP-CLI}{17}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Installatie benodigdheden}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Uitvoeren van scripts}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Voorbeeldscripts}{21}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Configuratiebestand}{21}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Downloaden van WordPress}{22}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Wp-config genereren en aanpassen}{23}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Databank opstellen}{24}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Eigen thema opzetten}{26}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}WooCommerce plugin downloaden}{27}{subsection.3.6.6}%
+\contentsline {section}{\numberline {3.7}Styling van lay-out}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Overname van data}{29}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Stappenplan}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Inleiding}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Algemeen scenario}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Configuratiebestand}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Bepalen van plugins}{31}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Bepalen van thema}{32}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Opbouw WordPress}{32}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Configureer de wp-config}{32}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Koppel databank}{32}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Voer manueel de WordPress installatie uit}{32}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Voorzie styling}{33}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Vul op met data}{33}{subsection.4.2.9}%
+\contentsline {chapter}{\numberline {5}Conclusie}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ondervindingen}{34}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Manueel werk}{35}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Nieuwe verwachtingen}{36}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Aanbevelingen voor de toekomst}{36}{section.5.4}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{37}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introductie}{38}{section.A.1}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{39}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{40}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Eerste fase - WordPress en WooCommerce automatiseren}{40}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Tweede fase - Een WordPress webshop overnemen}{40}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Derde fase - Een niet-WordPress webshop overnemen}{40}{subsection.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}Vierde fase - Uitbreiden van scenario's}{41}{subsection.A.3.4}%
+\contentsline {subsection}{\numberline {A.3.5}Vijfde fase - Testen met de lijst}{41}{subsection.A.3.5}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{41}{section.A.4}%
+\contentsline {chapter}{\numberline {B}AgentGPT resultaat}{43}{appendix.B}%
+\contentsline {chapter}{Bibliografie}{49}{appendix*.11}%
 \contentsfinish 

@@ -1,6 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{c+ch}{\PYGZsh{}!/bin/bash}
-\PYG{c+c1}{\PYGZsh{} Naam script = aanpassen\PYGZus{}wp.sh}
+\PYG{c+c1}{\PYGZsh{} Naam script = aanpassen\PYGZus{}wp\PYGZus{}config.sh}
 
 \PYG{c+c1}{\PYGZsh{} Ophalen van configuratiebestand klantgegevens\PYGZus{}coureur\PYGZus{}local.sh}
 \PYG{n+nb}{source}\PYG{+w}{ }klantgegevens\PYGZus{}coureur\PYGZus{}local.sh

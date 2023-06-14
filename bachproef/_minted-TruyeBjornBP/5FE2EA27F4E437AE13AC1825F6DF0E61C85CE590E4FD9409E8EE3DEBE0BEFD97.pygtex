@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+chmod\PYG{+w}{ }+x\PYG{+w}{ }naamVanHetScript.sh
+\end{Verbatim}

@@ -6,42 +6,48 @@
 \label{ch:stappenplan}
 
 \section{Inleiding}
-Dit stappenplan is specifiek voor de co-promotor opgesteld, om het proces van een webshop overname zo snel en efficiënt mogelijk aan te pakken. Belangrijk is om in het achterhoofd te houden dat dit voor één algemeen scenario beschreven is. Afhankelijk van de opdracht voor een klant kunnen bepaalde stappen overgeslagen worden. Dit stappenplan houdt geen rekening met de hosting van de webshop. Een uitgebreidere beschrijving van de verschillende stappen kan in het hoofdstuk 'methodologie' worden teruggevonden.  
-
+Dit stappenplan is specifiek voor Team Made opgesteld, maar kan door eender wie gebruikt worden, en dient om het proces van een webshop overname zo snel en efficiënt mogelijk aan te pakken. Dit stappenplan houdt geen rekening met de hosting van de webshop. Een uitgebreidere beschrijving van de verschillende stappen kan in het hoofdstuk 'Methodologie'\ref{ch:methodologie} worden teruggevonden.  
 \section{Algemeen scenario}
-Het volledig opzetten van een webshop kan als volgt:
+Alle stappen die mogelijks moeten doorgenomen worden voor het opzetten van een webshop komen in volgende hoofdstukken aan bod. Belangrijk is om in het achterhoofd te houden dat dit voor één algemeen scenario beschreven is. Afhankelijk van de opdracht voor een klant kunnen bepaalde stappen worden overgeslagen.
 \subsection{Configuratiebestand}
-Pas het configuratie-bestand aan met de noodzakelijke gegevens van de klant.
+Pas het configuratiebestand aan met de noodzakelijke gegevens van de klant. Gebruik hiervoor het voorbeeldscript van de klant Coureur Local als referentie \ref{klantgegevens_coureur_local}.
 \subsection{Bepalen van plugins}
-Afhankelijk van de opdracht zal je andere plugins nodig hebben.
+Afhankelijk van de opdracht zal je andere plugins nodig hebben. Er zijn AI-tools zoals Auto-GPT \ref{auto_gpt} die kunnen ophalen welke plugins reeds gebruikt worden op een andere website.
 \begin{itemize}
-    \item Kies welke je gaat gebruiken. 
-    \item Bepaal de versie die je zal gebruiken en of automatische updates mogen aanstaan of niet.
+    \item Kies welke plugins je gaat gebruiken. 
+    \item Bepaal de versie die je zal gebruiken (de laatste of een specifieke versie) en of automatische updates mogen aanstaan of niet.
     \item Controleer of alle plugins compatibel zullen zijn met elkaar. Dit kan ironisch genoeg ook met een plugin zoals Plugin Compatibility Checker\footnote{\href{https://wordpress.org/plugins/plugin-compatibility-checker/}{https://wordpress.org/plugins/plugin-compatibility-checker/}}.
-    \item Maak script(s) klaar voor de plugins te downloaden en te installeren.
+    \item Maak script(s) klaar voor de plugins te downloaden en te installeren. Gebruik hiervoor het voorbeeldscript van de WooCommerce plugin \ref{install_woocommerce_script}.
 \end{itemize}
 \subsection{Bepalen van thema}
-Kies welk thema je gaat gebruiken en hoe je het gaat integreren (via scripting, manueel of combinatie van beide). De opties zijn:
+Kies welk thema je gaat gebruiken en hoe je het gaat integreren (via scriptie, manueel of combinatie van beide). De opties zijn:
 \begin{itemize}
-    \item Zelf een custom theme genereren via scripting
-    \item Een extern thema manueel downloaden en achteraf uploaden
+    \item Zelf een custom theme genereren via scriptie zoals in het voorbeeldscript \ref{aanmaken_database_script}.
+    \item Een extern thema manueel downloaden en achteraf uploaden.
 \end{itemize}
-Vergeet niet om het configuratiebstand uit te breiden indien voor een custom theme wordt gekozen.
+Vergeet niet om het configuratiebestand uit te breiden met de benodigde variabelen, en deze te exporteren indien voor een eigen thema wordt gekozen.
 \subsection{Opbouw WordPress}
-Pas het configuratie-bestand aan met de noodzakelijke gegevens van de klant. Voer vervolgens bijhorende PowerShell-script(s) uit om een lokale WordPress te hebben met een custom theme en de opgegeven plugins. 
-\subsection{Controleer installatie}
-Kijk of alles correct geïnstalleerd is en werkt:
+Download WordPress met behulp van een script (zie \ref{opzet_wp_script} voor een voorbeeld hiervan).
+\subsection{Configureer de wp-config}
+Als het configuratiebestand met de klantgegevens goed is opgesteld, voer dan een script uit om de wp-config aan te passen (zie \ref{aanpassen_config_script} voor een voorbeeld hiervan).
+\subsection{Koppel databank}
+Beslis om een eigen databank manueel aan te maken, via een script één lege aan te maken (zie voorbeeldscript \ref{aanmaken_database_script} ter referentie), of om een reeds bestaande te gebruiken. Kies bij voorkeur voor een databank die reeds live staat.
+\subsection{Voer manueel de WordPress installatie uit}
+Surf naar de WordPress folder op de localhost en voer de installatie van WordPress uit. Vergeet hierbij niet om indexering van zoekmachines uit te zetten. Controleer nadien of de website werkt:
 \begin{itemize}
-    \item Is het gekozen thema goed opgesteld en actief?
     \item Kan de admin zich inloggen?
-    \item Zijn alle plugins compatibel met elkaar? 
+    \item Is het eventueel gekozen thema goed opgesteld en actief?
+    \item Zijn alle gekozen plugins compatibel met elkaar?
+    \item Is de website effectief te vinden?
 \end{itemize}
 \subsection{Voorzie styling}
-Indien er gekozen is voor een extern thema is dit punt bijna afgerond. Pas indien nodig nog de kleuren en andere elementen aan. 
+Indien er gekozen is voor een extern thema is dit punt bijna afgerond. Download dit thema, upload het in de themes folder en activeer het manueel of via een zelfgeschreven script. Het script kan hierbij best gebruikmaken van het commando 'wp theme activate' van WP-CLI\footnote{\href{https://developer.wordpress.org/cli/commands/theme/activate/}{https://developer.wordpress.org/cli/commands/theme/activate/}}. Pas indien nodig nog de kleuren en andere elementen aan van het thema.
+\\\\
+Bij het stijlen van een eigen thema kunnen AI-tools helpen die code kunnen genereren op basis van tekst (zie \ref{ai_tools_programmeren}), tools die met AI-Agents werken (zie \ref{ai_tools_agents}) of eventueel tools die volledige ontwikkeling toestaan en kunnen exporteren (zie \ref{ai_tools_volledige_ontwikkeling}). Op moment van schrijven is de laatste optie nog niet hanteerbaar omdat veel van deze AI-tools binnen hun eigen omgeving werken, en exporteren van code nog niet toestaan (en dit mogelijks nooit zullen toestaan).
 \subsection{Vul op met data}
 \begin{itemize}
-    \item Haal de data op (bv. via AgentGPT of Beautiful Soup)
-    \item Exporteer de data naar een .csv-file
-    \item Importeer de .csv-file in de WooCommerce-plugin en doorloop het proces
+    \item Haal de data op (bv. automatisch via AgentGPT (zie \ref{agentgpt}) of manueel met Beautiful Soup\footnote{\href{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}}).
+    \item Exporteer de data naar een CSV- of XML-bestand en zorg dat alle data correct staat voor een import uit te voeren.
+    \item Importeer het bestand in de WooCommerce-plugin en doorloop het proces van velden met elkaar overeen te stemmen.
 \end{itemize}
-Nadat al deze stappen zijn doornomen, en alles operationeel is, kan de webshop worden gehost. Vervolgens wanneer de webshop live staat kunnen manueel de overige plugins worden geïnstalleerd voor o.a. de beveiliging van WordPress te optimaliseren (bv. Wordfence).
+Nadat al deze stappen zijn doorgenomen, en alles operationeel is, kan de webshop worden gehost. Vervolgens wanneer de webshop live staat kunnen manueel (of via een script zoals bij de WooCommerce plugin \ref{install_woocommerce_script}) de overige plugins worden geïnstalleerd voor o.a. de beveiliging van WordPress te optimaliseren (bv. met de plugin Wordfence).

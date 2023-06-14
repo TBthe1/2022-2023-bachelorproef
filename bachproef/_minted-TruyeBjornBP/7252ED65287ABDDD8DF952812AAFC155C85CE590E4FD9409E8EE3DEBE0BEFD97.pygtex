@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nv}{command}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{l+s+s2}{/wp\PYGZhy{}cli.phar \PYGZhy{}\PYGZhy{}path=}\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{l+s+s2}{ plugin update\PYGZhy{}all \PYGZhy{}\PYGZhy{}allow\PYGZhy{}root\PYGZdq{}}
+\PYG{n+nb}{eval}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}command}\PYG{l+s+s2}{\PYGZdq{}}
+\end{Verbatim}

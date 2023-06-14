@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+ch}{\PYGZsh{}!/bin/bash}
+\PYG{c+c1}{\PYGZsh{} Naam script = aanmaken\PYGZus{}database\PYGZus{}wp.sh}
+
+\PYG{c+c1}{\PYGZsh{} Get klantgegevens\PYGZus{}coureur\PYGZus{}local.sh}
+\PYG{n+nb}{source}\PYG{+w}{ }klantgegevens\PYGZus{}coureur\PYGZus{}local.sh
+
+wp\PYG{+w}{ }db\PYG{+w}{ }create\PYG{+w}{ }\PYGZhy{}\PYGZhy{}dbuser\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}dbUser}\PYG{l+s+s2}{\PYGZdq{}}\PYG{+w}{ }\PYGZhy{}\PYGZhy{}dbpass\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}dbPassword}\PYG{l+s+s2}{\PYGZdq{}}
+\end{Verbatim}

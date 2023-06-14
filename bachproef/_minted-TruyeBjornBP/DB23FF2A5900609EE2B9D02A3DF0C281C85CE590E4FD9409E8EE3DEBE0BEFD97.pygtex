@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+sudo\PYG{+w}{ }apt\PYG{+w}{ }install\PYG{+w}{ }p7zip\PYG{+w}{ }p7zip\PYGZhy{}full\PYG{+w}{ }p7zip\PYGZhy{}rar
+\end{Verbatim}

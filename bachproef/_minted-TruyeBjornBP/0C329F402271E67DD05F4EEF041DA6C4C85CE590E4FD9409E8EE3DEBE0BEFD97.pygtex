@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} WordPress Plugin API activation}
+\PYG{n+nv}{apiPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}wordpressPath}\PYG{l+s+s2}{/wp\PYGZhy{}load.php\PYGZdq{}}
+\PYG{n+nb}{source}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}apiPath}\PYG{l+s+s2}{\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Activate WooCommerce plugin using Plugin API}
+\PYG{n+nv}{pluginPath}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}pluginsPath}\PYG{l+s+s2}{/}\PYG{n+nv}{\PYGZdl{}woocommerceName}\PYG{l+s+s2}{\PYGZdq{}}
+wp\PYG{+w}{ }plugin\PYG{+w}{ }activate\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}woocommerceName}\PYG{l+s+s2}{\PYGZdq{}}
+\end{Verbatim}
